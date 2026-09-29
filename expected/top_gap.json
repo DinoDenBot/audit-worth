@@ -1,0 +1,12 @@
+{"checks": {
+ "femnist30.top_gap": {"value": 0.005, "tol": 0.0005, "where": "Table I: FEMNIST top gap 0.005"},
+ "femnist30.range": {"value": 0.015, "tol": 0.0005, "where": "Table I: FEMNIST range 0.015"},
+ "femnist_scaled_0.5.top_gap": {"value": 0.008, "tol": 0.0005, "where": "Table I and Section VII-C: scaled top gap 0.008 at x0.5"},
+ "femnist_scaled_1.top_gap": {"value": 0.011, "tol": 0.0005, "where": "Section VII-C: scaled top gap 0.011 at x1"},
+ "femnist_scaled_2.top_gap": {"value": 0.020, "tol": 0.0005, "where": "Table I and Section VII-C: scaled top gap 0.020 at x2"},
+ "har.top_gap": {"value": 0.015, "tol": 0.0005, "where": "Table I: UCI HAR top gap 0.015"},
+ "har.range": {"value": 0.107, "tol": 0.0005, "where": "Table I: UCI HAR range 0.107"},
+ "stackoverflow.top_gap": {"value": 0.008, "tol": 0.0005, "where": "Table I and Section VII-C: Stack Overflow top gap 0.008"},
+ "stackoverflow.range": {"value": 0.065, "tol": 0.0005, "where": "Table I: Stack Overflow range 0.065"},
+ "max_theta_delta_eps4": {"value": 0.16, "tol": 0.005, "where": "Section VI: theta*Delta at most about 0.16 at eps_dec = 4"}
+}}

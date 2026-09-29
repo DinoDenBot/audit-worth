@@ -46,6 +46,7 @@ groups for a smoke test (their checks then fail, as expected).
 | `decision_choice` | Section VII-C, 'Does report accuracy change the private choice?': FEMNIST choice from exact reports versus 1, 4, or 16 audits per client. |
 | `settings_har_stackoverflow` | Section VII-C and VII-D: UCI HAR and Stack Overflow choice gains and panel leverage. |
 | `separation_value` | Section VII-C: candidate ranges and the gain of exact reports as FEMNIST candidate updates are scaled apart. |
+| `top_gap` | Table I and Section VI: mean top gap (best minus second-best action) and range of each replay setting, and the size of theta*Delta at eps_dec = 4. |
 | `fig2_separation_data` | Figure 2 and Section VII-C: data for the separation figure (decision gain of exact reports vs candidate range, eps_dec = 1 and 4). |
 | `contribution score_from_submission` | Section VII-D and Figure 3: contribution score computed from the submission (report versus panel as the payment ratio falls). |
 | `panel_leverage` | Section VII-D, Appendix D, and Appendix E: payment-seeking panels versus random draws and random panels (FEMNIST). |
