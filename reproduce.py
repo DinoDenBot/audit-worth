@@ -4,7 +4,7 @@
 Usage:
     python reproduce.py            # all scripts
     python reproduce.py --list     # list scripts and what they reproduce
-    python reproduce.py table2 fig4   # scripts whose names contain these substrings
+    python reproduce.py decision_table fig4   # scripts whose names contain these substrings
 """
 import argparse
 import importlib.util

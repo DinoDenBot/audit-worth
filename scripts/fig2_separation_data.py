@@ -1,4 +1,4 @@
-"""Figure 2: data for the separation figure (decision gain of exact reports vs candidate range, eps_dec = 1 and 4).
+"""Figure 2 and Section VII-C: data for the separation figure (decision gain of exact reports vs candidate range, eps_dec = 1 and 4).
 
 Each point is a four-client replay setting: x is the mean accuracy range between the best
 and worst action on the target, y is the regret of the private choice from one directly

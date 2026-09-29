@@ -1,0 +1,5 @@
+{"checks": {
+ "median_V": {"value": 0.072, "tol": 0.0005, "where": "Section IV, after the leverage result: median variance V_i = 0.072 of the four-candidate report vector (B = 4)"},
+ "payment_change_per_beta": {"value": 1.3e-4, "tol": 5e-6, "where": "Section IV and Introduction: about 1.3e-4 beta_i per round"},
+ "beta_over_cost_saved": {"value": 7700, "tol": 50, "where": "Section IV, 'The cost of preparing a report': payment scale must exceed about 7.7e3 times the saving per round"}
+}}

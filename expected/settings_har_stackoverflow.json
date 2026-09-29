@@ -1,0 +1,99 @@
+{
+ "checks": {
+  "har.panel_equivalent_reads": {
+   "value": 312,
+   "tol": 0.5,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (HAR panel matched 312 with-replacement draws)"
+  },
+  "so.panel_equivalent_reads": {
+   "value": 437,
+   "tol": 0.5,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (Stack Overflow panel matched 437 with-replacement draws)"
+  },
+  "har.random_equivalent_reads": {
+   "value": 19.6,
+   "tol": 0.05,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (HAR random panel 19.6)"
+  },
+  "so.random_equivalent_reads": {
+   "value": 18.0,
+   "tol": 0.05,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (Stack Overflow random panel 18.0)"
+  },
+  "har.eps4.audit1_minus_exact": {
+   "value": 0.00588,
+   "tol": 5e-06,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (gain of exact reports over one direct read per provider at eps_dec=4)"
+  },
+  "har.eps4.audit1_minus_exact_lo": {
+   "value": 0.00493,
+   "tol": 5e-06,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (95% interval, lower)"
+  },
+  "har.eps4.audit1_minus_exact_hi": {
+   "value": 0.00684,
+   "tol": 5e-06,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (95% interval, upper)"
+  },
+  "so.eps4.audit1_minus_exact": {
+   "value": 0.00275,
+   "tol": 5e-06,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (gain of exact reports over one direct read per provider at eps_dec=4)"
+  },
+  "so.eps4.audit1_minus_exact_lo": {
+   "value": 0.00064,
+   "tol": 5e-06,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (95% interval, lower)"
+  },
+  "so.eps4.audit1_minus_exact_hi": {
+   "value": 0.00486,
+   "tol": 5e-06,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (95% interval, upper)"
+  },
+  "har.candidate_range": {
+   "value": 0.107,
+   "tol": 0.0005,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (mean candidate range, HAR)"
+  },
+  "so.candidate_range": {
+   "value": 0.065,
+   "tol": 0.0005,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (mean candidate range, Stack Overflow)"
+  },
+  "har.n_units": {
+   "value": 320,
+   "tol": 0,
+   "where": "Appendix, 'Two further task settings' (320 provider-inventory units)"
+  },
+  "so.n_units": {
+   "value": 2048,
+   "tol": 0,
+   "where": "Appendix, 'Two further task settings' (2,048 units)"
+  },
+  "so.n_zero_variance": {
+   "value": 80,
+   "tol": 0,
+   "where": "Appendix, 'Two further task settings' (80 units with zero task variance excluded)"
+  },
+  "total_units": {
+   "value": 2368,
+   "tol": 0,
+   "where": "Appendix, 'Two further task settings' (verifier checked 2,368 inventory units)"
+  },
+  "total_decision_rows": {
+   "value": 2960,
+   "tol": 0,
+   "where": "Appendix, 'Two further task settings' (2,960 decision rows)"
+  },
+  "har.panel_equivalent_distinct_reads": {
+   "value": 66,
+   "tol": 0.5,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (or 66 distinct reads on HAR)"
+  },
+  "so.panel_equivalent_distinct_reads": {
+   "value": 120,
+   "tol": 0.5,
+   "where": "Section VII-C (choice gains) and VII-D (panel leverage) (or 120 distinct reads on Stack Overflow)"
+  }
+ }
+}

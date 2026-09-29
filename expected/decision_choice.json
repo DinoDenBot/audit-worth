@@ -1,0 +1,59 @@
+{
+ "checks": {
+  "n4_eps_le_4.at_most_0.0001": {
+   "value": 1,
+   "tol": 0,
+   "where": "Section VII-C: four clients, eps_dec<=4, differences at most 0.0001 (indicator over r=1,4,16)"
+  },
+  "n4_eps16.reports": {
+   "value": 0.0064,
+   "tol": 5e-05,
+   "where": "Section VII-C: eps_dec=16, from reports"
+  },
+  "n4_eps16.one_audit": {
+   "value": 0.0072,
+   "tol": 5e-05,
+   "where": "Section VII-C: eps_dec=16, one audit per client"
+  },
+  "n4_eps16.diff.mean": {
+   "value": 0.0008,
+   "tol": 5e-05,
+   "where": "Section VII-C: eps_dec=16, difference"
+  },
+  "n4_eps16.diff.lo": {
+   "value": 0.0005,
+   "tol": 5e-05,
+   "where": "Section VII-C: eps_dec=16, difference interval lower end"
+  },
+  "n4_eps16.diff.hi": {
+   "value": 0.0011,
+   "tol": 5e-05,
+   "where": "Section VII-C: eps_dec=16, difference interval upper end"
+  },
+  "n4_nonprivate.reports": {
+   "value": 0,
+   "tol": 5e-05,
+   "where": "Section VII-C: without privacy, from reports"
+  },
+  "n4_nonprivate.one_audit": {
+   "value": 0.0072,
+   "tol": 5e-05,
+   "where": "Section VII-C: without privacy, one audit per client"
+  },
+  "n4_nonprivate.sixteen_audits": {
+   "value": 0.0045,
+   "tol": 5e-05,
+   "where": "Section VII-C: without privacy, 16 audits per client"
+  },
+  "n64_eps4.reports": {
+   "value": 0.0035,
+   "tol": 5e-05,
+   "where": "Section VII-C: 64 replicated clients at eps_dec=4, from reports"
+  },
+  "n64_eps4.one_audit": {
+   "value": 0.005,
+   "tol": 5e-05,
+   "where": "Section VII-C: 64 replicated clients at eps_dec=4, one audit per client"
+  }
+ }
+}

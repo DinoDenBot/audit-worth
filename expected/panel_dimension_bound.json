@@ -1,0 +1,19 @@
+{
+ "checks": {
+  "bound_over_random.min": {
+   "value": 9.5,
+   "tol": 0.05,
+   "where": "Appendix B: dimension bound 9.5 to 37 times the random-panel error"
+  },
+  "bound_over_random.max": {
+   "value": 37,
+   "tol": 0.5,
+   "where": "Appendix B: dimension bound 9.5 to 37 times the random-panel error"
+  },
+  "bound_over_random.median": {
+   "value": 24,
+   "tol": 0.5,
+   "where": "Appendix B: median 24"
+  }
+ }
+}

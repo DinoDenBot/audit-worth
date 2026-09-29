@@ -1,0 +1,89 @@
+{
+ "checks": {
+  "quality.model_accuracy.mean": {
+   "value": 0.779,
+   "tol": 0.0005,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (equal-user working-inventory accuracy)"
+  },
+  "quality.model_accuracy.lo": {
+   "value": 0.765,
+   "tol": 0.0005,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (group interval, lower)"
+  },
+  "quality.model_accuracy.hi": {
+   "value": 0.793,
+   "tol": 0.0005,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (group interval, upper)"
+  },
+  "quality.mlp_accuracy.mean": {
+   "value": 0.671,
+   "tol": 0.0005,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (earlier MLP)"
+  },
+  "quality.constant_accuracy.mean": {
+   "value": 0.579,
+   "tol": 0.0005,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (best constant predictor)"
+  },
+  "gate_model_quality": {
+   "value": 1,
+   "tol": 0,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (model-quality gate passed)"
+  },
+  "gate_candidate_variation": {
+   "value": 1,
+   "tol": 0,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (candidate-variation gate passed)"
+  },
+  "panel_equivalent_reads": {
+   "value": 422,
+   "tol": 0.5,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (payment-seeking 16-record panel matched 422 with-replacement draws)"
+  },
+  "random_equivalent_reads": {
+   "value": 18,
+   "tol": 0.5,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (random panel: 18 with-replacement draws)"
+  },
+  "providers_eps4.gain": {
+   "value": 0.00303,
+   "tol": 5e-06,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (four-provider regret reduction at eps_dec=4)"
+  },
+  "providers_eps4.gain_lo": {
+   "value": 0.00028,
+   "tol": 5e-06,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (group interval, lower)"
+  },
+  "providers_eps4.gain_hi": {
+   "value": 0.00579,
+   "tol": 5e-06,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (group interval, upper)"
+  },
+  "full_eps4.gain": {
+   "value": 0.00267,
+   "tol": 5e-06,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (full 16-user target)"
+  },
+  "full_eps4.gain_ci_crosses_zero": {
+   "value": 1,
+   "tol": 0,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (full-target interval crosses zero)"
+  },
+  "n_units": {
+   "value": 2048,
+   "tol": 0,
+   "where": "Appendix, 'Stronger text-model sensitivity' (2,048 task/panel rows)"
+  },
+  "n_decision_rows": {
+   "value": 4096,
+   "tol": 0,
+   "where": "Appendix, 'Stronger text-model sensitivity' (4,096 decision rows)"
+  },
+  "panel_equivalent_distinct_reads": {
+   "value": 124,
+   "tol": 0.5,
+   "where": "Appendix D, 'Stronger text-model sensitivity' (or 124 distinct reads)"
+  }
+ }
+}

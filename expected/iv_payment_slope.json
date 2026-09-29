@@ -1,4 +1,0 @@
-{"checks": {
- "median_V": {"value": 0.089, "tol": 0.0005, "where": "Section IV, after the leverage result: median variance V_i = 0.089 of the eight-coordinate task vector"},
- "payment_change_per_beta": {"value": 8e-5, "tol": 5e-6, "where": "Section IV, after the leverage result: about 8e-5 beta_i per round (one significant digit)"}
-}}

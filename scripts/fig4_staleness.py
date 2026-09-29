@@ -1,4 +1,4 @@
-"""Figure 4 and Section VII-D: how long a round-80 payment-seeking 16-record panel stays valid.
+"""Figure 4 and Appendix E: how long a round-80 payment-seeking 16-record panel stays valid.
 
 For every analysed group (4-33), seed (2-5) and provider, the payment-seeking
 16-record panel is elicited on the round-80 task vectors with no competing

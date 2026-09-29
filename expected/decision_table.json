@@ -1,0 +1,129 @@
+{
+ "checks": {
+  "within16.eps=0.25.rho=30": {
+   "value": 1.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=0.25, beta/U=30"
+  },
+  "within16.eps=0.25.rho=300": {
+   "value": 1.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=0.25, beta/U=300"
+  },
+  "within16.eps=0.25.rho=3000": {
+   "value": 1.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=0.25, beta/U=3000"
+  },
+  "within16.eps=1.rho=30": {
+   "value": 0.7,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=1, beta/U=30"
+  },
+  "within16.eps=1.rho=300": {
+   "value": 1.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=1, beta/U=300"
+  },
+  "within16.eps=1.rho=3000": {
+   "value": 1.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=1, beta/U=3000"
+  },
+  "within16.eps=4.rho=30": {
+   "value": 0.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=4, beta/U=30"
+  },
+  "within16.eps=4.rho=300": {
+   "value": 1.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=4, beta/U=300"
+  },
+  "within16.eps=4.rho=3000": {
+   "value": 1.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=4, beta/U=3000"
+  },
+  "within16.eps=16.rho=30": {
+   "value": 0.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=16, beta/U=30"
+  },
+  "within16.eps=16.rho=300": {
+   "value": 0.04,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=16, beta/U=300"
+  },
+  "within16.eps=16.rho=3000": {
+   "value": 1.0,
+   "tol": 0.005,
+   "where": "Table III (left), reports within 16 independent direct draws, eps_dec=16, beta/U=3000"
+  },
+  "regret.reports.eps=0.25": {
+   "value": 0.0076,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from reports, eps=0.25"
+  },
+  "regret.one_audit.eps=0.25": {
+   "value": 0.0076,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from one audit each, eps=0.25"
+  },
+  "regret.reports.eps=1": {
+   "value": 0.0075,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from reports, eps=1"
+  },
+  "regret.one_audit.eps=1": {
+   "value": 0.0075,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from one audit each, eps=1"
+  },
+  "regret.reports.eps=4": {
+   "value": 0.0073,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from reports, eps=4"
+  },
+  "regret.one_audit.eps=4": {
+   "value": 0.0073,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from one audit each, eps=4"
+  },
+  "regret.reports.eps=16": {
+   "value": 0.0064,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from reports, eps=16"
+  },
+  "regret.one_audit.eps=16": {
+   "value": 0.0072,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from one audit each, eps=16"
+  },
+  "regret.reports.nonprivate": {
+   "value": 0,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from reports, nonprivate"
+  },
+  "regret.one_audit.nonprivate": {
+   "value": 0.0072,
+   "tol": 5e-05,
+   "where": "Table III (right), regret of the choice, from one audit each, nonprivate"
+  },
+  "random_choice.mean": {
+   "value": 0.0076,
+   "tol": 5e-05,
+   "where": "Table III caption, uniformly random choice regret (mean)"
+  },
+  "random_choice.lo": {
+   "value": 0.0061,
+   "tol": 5e-05,
+   "where": "Table III caption, uniformly random choice regret (lo)"
+  },
+  "random_choice.hi": {
+   "value": 0.0092,
+   "tol": 5e-05,
+   "where": "Table III caption, uniformly random choice regret (hi)"
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "checks": {
+  "label_image_not_better": {
+   "value": 1,
+   "tol": 0,
+   "where": "Appendix E, paragraph 2: the label-and-image kernel did no better at rounds 120 and 160 than the task kernel (1 = the 95% group interval of its distance minus the task panel's distance does not lie below zero)"
+  },
+  "model_output_not_better": {
+   "value": 1,
+   "tol": 0,
+   "where": "Appendix E, paragraph 2: the penultimate-layer kernel did no better at rounds 120 and 160 than the task kernel (same criterion)"
+  }
+ }
+}
