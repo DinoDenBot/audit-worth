@@ -1,4 +1,4 @@
-"""Section VII-A and Section I: credit rose in all ten primary contrasts; panel-over-target excess grew in all eight evaluable ones.
+"""Section VII-A and Table II: credit rose in all ten primary contrasts; panel-over-target excess grew in all eight evaluable ones.
 
 Also the largest credit gain ("up to 0.2") and the 30-group study's credit gain.
 """

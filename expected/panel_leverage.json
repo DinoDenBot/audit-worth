@@ -68,7 +68,7 @@
   "distinct_read_equivalent_k16": {
    "value": 44,
    "tol": 0.5,
-   "where": "Section VII-D (panel leverage), Appendix D (8/32 panels), Appendix E (ratios at round 80): 44 distinct reads when the actual inventory sizes are used (also Section I, Figure 3 caption, Summary, Appendix D)"
+   "where": "Section VII-D (panel leverage), Appendix D (8/32 panels), Appendix E (ratios at round 80): 44 distinct reads when the actual evaluation-set sizes are used (also Figure 3 caption and Appendix D)"
   }
  }
 }

@@ -1,4 +1,4 @@
-"""Section IV and Section I: payment change for degrading a report to the 16-draw reference, and the cost of preparing a report.
+"""Section IV: payment change for degrading a report to the 16-draw reference, and the cost of preparing a report.
 
 Under the recommended mechanism a report carries the four candidates' accuracy
 differences from keep-current (B = 4). The expected payment falls by

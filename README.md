@@ -35,8 +35,8 @@ groups for a smoke test (their checks then fail, as expected).
 
 | Script | Paper item |
 |---|---|
-| `curation_summary` | Section VII-A and Section I: credit rose in all ten primary contrasts; panel-over-target excess grew in all eight evaluable ones. |
-| `curation_table` | Table II: credit gain, flip rate, and target effect (95% interval) of credit-seeking curation in ten studies. |
+| `curation_summary` | Section VII-A and Section I: scores rose in all ten primary contrasts; panel-over-target excess grew in all eight evaluable ones. |
+| `curation_table` | Table II: contribution score gain, flip rate, and target effect (95% interval) of score-seeking curation in ten studies. |
 | `payment_slope` | Section IV and Section I: payment change for degrading a report to the 16-draw reference, and the cost of preparing a report. |
 | `federation_size` | Section VI, 'Federation size', and Appendix D: halving the regret of a random choice needs N*eps_dec of about 256. |
 | `decision_stake` | Section VII-B, 'What payment does the decision stake require?', and Appendix D (replicated federations; box responses outside M_dec). |
@@ -47,7 +47,7 @@ groups for a smoke test (their checks then fail, as expected).
 | `settings_har_stackoverflow` | Section VII-C and VII-D: UCI HAR and Stack Overflow choice gains and panel leverage. |
 | `separation_value` | Section VII-C: candidate ranges and the gain of exact reports as FEMNIST candidate updates are scaled apart. |
 | `fig2_separation_data` | Figure 2 and Section VII-C: data for the separation figure (decision gain of exact reports vs candidate range, eps_dec = 1 and 4). |
-| `credit_from_submission` | Section VII-D and Figure 3: credit computed from the submission (report versus panel as the payment ratio falls). |
+| `contribution score_from_submission` | Section VII-D and Figure 3: contribution score computed from the submission (report versus panel as the payment ratio falls). |
 | `panel_leverage` | Section VII-D, Appendix D, and Appendix E: payment-seeking panels versus random draws and random panels (FEMNIST). |
 | `payment_exposure_femnist` | Section VIII: expected net payment to a truthful FEMNIST client at beta/U = 300 (median and 90th percentile, in units of U). |
 | `payment_exposure_crosssetting` | Section VIII: expected net payment to a truthful client at beta/U = 300 in UCI HAR, Stack Overflow, and scaled FEMNIST. |
@@ -62,7 +62,7 @@ groups for a smoke test (their checks then fail, as expected).
 ```
 data/            cached per-record scores and derived per-state rows (see data/README.md)
 src/auditworth/  loaders (data.py), result checking (check.py), and the replay code:
-                 leverage.py (panels, credit stake), decision.py (private choice, best
+                 leverage.py (panels, contribution score stake), decision.py (private choice, best
                  responses, reports vs audits), crosssetting.py (UCI HAR, Stack Overflow,
                  update scaling), staleness.py (panel decay, kernels), curation.py (Table I)
 scripts/         one script per paper item (table above)

@@ -23,7 +23,7 @@
   "max_credit_gain": {
    "value": 0.2,
    "tol": 0.05,
-   "where": "Section I, first paragraph: 'by up to 0.2 in record-averaged Shapley value'"
+   "where": "Table II: largest score gain (0.202; 'up to 0.2')"
   },
   "femnist30_credit_gain": {
    "value": 0.0027,
