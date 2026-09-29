@@ -184,7 +184,7 @@ def coalition_matrix() -> np.ndarray:
         for mask in range(16):
             if mask & (1 << j):
                 continue
-            weight = 1 / (4 * math.comb(3, mask.bit_count()))
+            weight = 1 / (4 * math.comb(3, bin(mask).count("1")))
             A[4 + j, mask | (1 << j)] += weight
             A[4 + j, mask] -= weight
     return A

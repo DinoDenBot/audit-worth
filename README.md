@@ -8,6 +8,8 @@ with the value printed in the paper. No model training and no GPU are needed.
 
 ## Quick start
 
+Requires Python 3.9 or newer.
+
 ```bash
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt          # numpy, scipy

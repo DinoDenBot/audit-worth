@@ -10,6 +10,7 @@ import argparse
 import importlib.util
 import sys
 import time
+import traceback
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -34,10 +35,14 @@ def main():
     failed = []
     for p in chosen:
         t0 = time.time()
-        spec = importlib.util.spec_from_file_location(p.stem, p)
-        mod = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(mod)
-        ok = mod.main()
+        try:
+            spec = importlib.util.spec_from_file_location(p.stem, p)
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            ok = mod.main()
+        except Exception:
+            traceback.print_exc()
+            ok = False
         print(f"== {p.stem}: {'PASS' if ok else 'FAIL'} ({time.time() - t0:.0f}s)\n")
         if not ok:
             failed.append(p.stem)

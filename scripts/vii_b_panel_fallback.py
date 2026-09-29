@@ -4,7 +4,8 @@
 task vector. With no competing stake a best-responding panel minimizes its
 distance to the inventory mean. Errors are reported relative to one directly
 read record (pooled over inventories within a group, then averaged over the 30
-groups with 95% t intervals); "direct-read equivalents" are the reciprocals.
+groups with 95% t intervals); "direct-read equivalents" are the reciprocals
+(with-replacement draws); the distinct-read equivalent uses the actual inventory sizes.
 The panel-to-random comparison uses 100 random panels per inventory.
 """
 import sys; from pathlib import Path
@@ -31,6 +32,21 @@ def main() -> bool:
         values["direct_read_equivalents"][f"k{k}"] = {"panel": 1 / pan[0], "panel_lo": 1 / pan[2],
                                                       "panel_hi": 1 / pan[1], "random": 1 / rand[0]}
     values["n_nondegenerate_inventories"] = sum(V >= FLOOR for _, V, _ in units.values())
+
+    # Finite-inventory equivalent against distinct (without-replacement) reads for k = 16: the
+    # continuous read count r at which the sample mean of r distinct records has the panel's error,
+    # E|mean - mu|^2 = V (n - r) / (r (n - 1)), with the same aggregation as above (normalize within
+    # group, then average over groups): r = a / (e + c), where e is the mean group-level relative
+    # panel error, a the mean of sum V n/(n-1) / sum V, and c the mean of sum V/(n-1) / sum V.
+    groups = defaultdict(list)
+    for row in rows:
+        n, V, _ = units[(row["group"], row["seed"], row["provider"])]
+        if row["k"] == 16 and row["lambda"] == 0.0 and V >= FLOOR:
+            groups[row["group"]].append((n, V, row["e_pan"]))
+    e = np.mean([sum(x[2] for x in r) / sum(x[1] for x in r) for r in groups.values()])
+    a = np.mean([sum(x[1] * x[0] / (x[0] - 1) for x in r) / sum(x[1] for x in r) for r in groups.values()])
+    c = np.mean([sum(x[1] / (x[0] - 1) for x in r) / sum(x[1] for x in r) for r in groups.values()])
+    values["distinct_read_equivalent_k16"] = float(a / (e + c))
 
     # Payment-seeking versus random 16-panels, three aggregations (per group, then over groups).
     per = defaultdict(lambda: defaultdict(list))
