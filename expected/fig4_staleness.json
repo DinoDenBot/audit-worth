@@ -56,9 +56,9 @@
    "where": "Section VII-D, paragraph 2 and Figure 4 caption: 12-19% more than twice as bad (upper end)"
   },
   "after80.log_ratio_avg": {
-   "value": -0.6,
-   "tol": 0.1,
-   "where": "Section VII-D, paragraph 2 and Appendix D: mean log ratio 'near/about -0.6' after round 80 (average over rounds 81-120; per-round values -0.51 to -0.91; tolerance 0.1 chosen for 'near')"
+   "value": -0.7,
+   "tol": 0.05,
+   "where": "Section VII-D, paragraph 2 and Appendix D: mean log ratio about -0.7 on average after round 80 (average over rounds 81-120)"
   },
   "other_seed_ratio.mean": {
    "value": 0.34,
@@ -354,6 +354,16 @@
    "value": 0.385455,
    "tol": 5e-07,
    "where": "Figure 4 data (staleness-k16-other-seed.csv), open circle, column hi"
+  },
+  "by_round.112.log_ratio_mean.mean": {
+   "value": -0.5,
+   "tol": 0.05,
+   "where": "Section VII-D, paragraph 2: per-round mean log ratio from about -0.5 (highest, round 112)"
+  },
+  "by_round.120.log_ratio_mean.mean": {
+   "value": -0.9,
+   "tol": 0.05,
+   "where": "Section VII-D, paragraph 2: ... to -0.9 (lowest, round 120)"
   }
  }
 }
