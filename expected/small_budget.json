@@ -1,0 +1,6 @@
+{"checks": {
+ "har.eps1.simulated": {"value": 4.6e-4, "tol": 5e-6, "where": "Section VII-C: UCI HAR at eps_dec=1, 4.6e-4 simulated"},
+ "har.eps1.predicted": {"value": 4.1e-4, "tol": 5e-6, "where": "Section VII-C: UCI HAR at eps_dec=1, 4.1e-4 predicted"},
+ "max_relative_deviation_har_so": {"value": 0.333, "tol": 0.02, "where": "Sections VI and VII-C: prediction within about a third in UCI HAR and Stack Overflow at eps_dec<=1 (max relative deviation, tolerance covers 'about')"},
+ "femnist_max_abs_gain_eps_le_1": {"value": 0.0, "tol": 1e-6, "where": "Section VII-C: in FEMNIST simulated gain below 1e-6 at eps_dec<=1"}
+}}
