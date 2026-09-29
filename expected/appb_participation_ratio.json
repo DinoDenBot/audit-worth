@@ -1,0 +1,5 @@
+{"checks": {
+ "spearman.rho": {"value": -0.29, "tol": 0.005, "where": "Appendix B, closing paragraph: participation-ratio prediction failed, Spearman -0.29"},
+ "spearman.lo": {"value": -0.47, "tol": 0.005, "where": "Appendix B, closing paragraph: interval [-0.47, -0.09]"},
+ "spearman.hi": {"value": -0.09, "tol": 0.005, "where": "Appendix B, closing paragraph: interval [-0.47, -0.09]"}
+}}

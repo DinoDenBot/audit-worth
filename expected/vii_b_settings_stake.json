@@ -1,0 +1,114 @@
+{
+ "checks": {
+  "har.eps4_max_regret_shift": {
+   "value": 0.0,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=4 simultaneous best responses left regret at its truthful value for beta/U 30..3000; tolerance is half a unit of the reported gains)"
+  },
+  "har.eps4_rho30.gain_br_over_audit1": {
+   "value": 0.00588,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00588 at eps_dec=4)"
+  },
+  "har.eps1_rho30.gain_br_over_audit1": {
+   "value": 0.0005,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0005)"
+  },
+  "har.eps4_rho100.gain_br_over_audit1": {
+   "value": 0.00588,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00588 at eps_dec=4)"
+  },
+  "har.eps1_rho100.gain_br_over_audit1": {
+   "value": 0.0005,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0005)"
+  },
+  "har.eps4_rho300.gain_br_over_audit1": {
+   "value": 0.00588,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00588 at eps_dec=4)"
+  },
+  "har.eps1_rho300.gain_br_over_audit1": {
+   "value": 0.0005,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0005)"
+  },
+  "har.eps4_rho1000.gain_br_over_audit1": {
+   "value": 0.00588,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00588 at eps_dec=4)"
+  },
+  "har.eps1_rho1000.gain_br_over_audit1": {
+   "value": 0.0005,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0005)"
+  },
+  "har.eps4_rho3000.gain_br_over_audit1": {
+   "value": 0.00588,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00588 at eps_dec=4)"
+  },
+  "har.eps1_rho3000.gain_br_over_audit1": {
+   "value": 0.0005,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0005)"
+  },
+  "so.eps4_max_regret_shift": {
+   "value": 0.0,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=4 simultaneous best responses left regret at its truthful value for beta/U 30..3000; tolerance is half a unit of the reported gains)"
+  },
+  "so.eps4_rho30.gain_br_over_audit1": {
+   "value": 0.00275,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00275 at eps_dec=4)"
+  },
+  "so.eps1_rho30.gain_br_over_audit1": {
+   "value": 0.0002,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0002)"
+  },
+  "so.eps4_rho100.gain_br_over_audit1": {
+   "value": 0.00275,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00275 at eps_dec=4)"
+  },
+  "so.eps1_rho100.gain_br_over_audit1": {
+   "value": 0.0002,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0002)"
+  },
+  "so.eps4_rho300.gain_br_over_audit1": {
+   "value": 0.00275,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00275 at eps_dec=4)"
+  },
+  "so.eps1_rho300.gain_br_over_audit1": {
+   "value": 0.0002,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0002)"
+  },
+  "so.eps4_rho1000.gain_br_over_audit1": {
+   "value": 0.00275,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00275 at eps_dec=4)"
+  },
+  "so.eps1_rho1000.gain_br_over_audit1": {
+   "value": 0.0002,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0002)"
+  },
+  "so.eps4_rho3000.gain_br_over_audit1": {
+   "value": 0.00275,
+   "tol": 5e-06,
+   "where": "Section VII-B, paragraph 'Two other task settings' (advantage over one audit unchanged by the stake: 0.00275 at eps_dec=4)"
+  },
+  "so.eps1_rho3000.gain_br_over_audit1": {
+   "value": 0.0002,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Two other task settings' (at eps_dec=1 the advantage was small: 0.0002)"
+  }
+ }
+}

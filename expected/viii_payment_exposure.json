@@ -1,0 +1,14 @@
+{
+ "checks": {
+  "femnist.median_net_over_U": {
+   "value": 0.007,
+   "tol": 0.0005,
+   "where": "Section VIII, payment cost paragraph (FEMNIST, beta/U=300): median expected net transfer 0.007U"
+  },
+  "femnist.p90_net_over_U": {
+   "value": 0.03,
+   "tol": 0.005,
+   "where": "Section VIII, payment cost paragraph (FEMNIST, beta/U=300): 90th percentile 0.03U"
+  }
+ }
+}

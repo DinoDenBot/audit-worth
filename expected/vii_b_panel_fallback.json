@@ -1,0 +1,15 @@
+{"checks": {
+ "panel_error_vs_direct_read.k16.mean": {"value": 0.0113, "tol": 0.00005, "where": "Section VII-B, panel fallback: 16-record panel squared error 0.0113 of one direct audit's"},
+ "panel_error_vs_direct_read.k16.lo": {"value": 0.0099, "tol": 0.00005, "where": "Section VII-B, panel fallback: interval [0.0099, 0.0126]"},
+ "panel_error_vs_direct_read.k16.hi": {"value": 0.0126, "tol": 0.00005, "where": "Section VII-B, panel fallback: interval [0.0099, 0.0126]"},
+ "direct_read_equivalents.k16.panel": {"value": 89, "tol": 0.5, "where": "Section VII-B, panel fallback: matched about 89 directly read records"},
+ "direct_read_equivalents.k16.panel_lo": {"value": 79, "tol": 0.5, "where": "Section VII-B, panel fallback: interval [79, 101]"},
+ "direct_read_equivalents.k16.panel_hi": {"value": 101, "tol": 0.5, "where": "Section VII-B, panel fallback: interval [79, 101]"},
+ "direct_read_equivalents.k16.random": {"value": 19.5, "tol": 0.05, "where": "Section VII-B, panel fallback: 16 random records matched 19.5"},
+ "direct_read_equivalents.k8.panel": {"value": 58, "tol": 0.5, "where": "Section VII-B, panel fallback: panels of 8 records matched about 58"},
+ "direct_read_equivalents.k32.panel": {"value": 203, "tol": 0.5, "where": "Section VII-B, panel fallback: panels of 32 records matched about 203"},
+ "panel_vs_random_k16.pooled_ratio": {"value": 0.22, "tol": 0.005, "where": "Section VII-B, panel fallback: panel/random 0.22 in the ratio of pooled errors"},
+ "panel_vs_random_k16.mean_ratio": {"value": 0.24, "tol": 0.005, "where": "Section VII-B, panel fallback: 0.24 as a mean of per-inventory ratios"},
+ "panel_vs_random_k16.mean_log_ratio": {"value": -1.58, "tol": 0.005, "where": "Section VII-B, panel fallback: mean log ratio -1.58"},
+ "panel_vs_random_k16.exp_mean_log_ratio": {"value": 0.21, "tol": 0.005, "where": "Section VII-B, panel fallback: exp(-1.58) approx 0.21"}
+}}

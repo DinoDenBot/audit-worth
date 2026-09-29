@@ -1,0 +1,359 @@
+{
+ "checks": {
+  "by_round.80.ratio_mean.mean": {
+   "value": 0.238981,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 80, column mean"
+  },
+  "after80.ratio_mean_avg": {
+   "value": 1.0,
+   "tol": 0.05,
+   "where": "Figure 4 caption and Section VII-D: mean ratio 'about 1' after round 80 (average over rounds 81-120; tolerance 0.05 chosen for 'about')"
+  },
+  "by_round.80.pooled_ratio": {
+   "value": 0.21,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2: pooled ratio 0.21 at round 80"
+  },
+  "after80.pooled_min": {
+   "value": 0.86,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2: pooled ratio 0.86 to 1.14 afterwards (lower end)"
+  },
+  "after80.pooled_max": {
+   "value": 1.14,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2: pooled ratio 0.86 to 1.14 afterwards (upper end)"
+  },
+  "after80.median_min": {
+   "value": 0.37,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2: median ratio 0.37 to 0.51 (lower end)"
+  },
+  "after80.median_max": {
+   "value": 0.51,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2: median ratio 0.37 to 0.51 (upper end)"
+  },
+  "after80.better_min": {
+   "value": 0.65,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2: 65-74% of panels better than random (lower end)"
+  },
+  "after80.better_max": {
+   "value": 0.74,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2: 65-74% of panels better than random (upper end)"
+  },
+  "after80.worse2x_min": {
+   "value": 0.12,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2 and Figure 4 caption: 12-19% more than twice as bad (lower end)"
+  },
+  "after80.worse2x_max": {
+   "value": 0.19,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2 and Figure 4 caption: 12-19% more than twice as bad (upper end)"
+  },
+  "after80.log_ratio_avg": {
+   "value": -0.6,
+   "tol": 0.1,
+   "where": "Section VII-D, paragraph 2 and Appendix D: mean log ratio 'near/about -0.6' after round 80 (average over rounds 81-120; per-round values -0.51 to -0.91; tolerance 0.1 chosen for 'near')"
+  },
+  "other_seed_ratio.mean": {
+   "value": 0.34,
+   "tol": 0.005,
+   "where": "Section VII-D, paragraph 2: round-80 panels on round-80 candidates with a different seed keep a ratio of 0.34"
+  },
+  "all_rounds.near_zero_min": {
+   "value": 0,
+   "tol": 0,
+   "where": "Appendix D, decay replay paragraph: near-zero-error inventories 0 to 6 per round (lower end)"
+  },
+  "all_rounds.near_zero_max": {
+   "value": 6,
+   "tol": 0,
+   "where": "Appendix D, decay replay paragraph: near-zero-error inventories 0 to 6 per round (upper end)"
+  },
+  "all_rounds.units_mean": {
+   "value": 450,
+   "tol": 25,
+   "where": "Appendix D, decay replay paragraph: 'of about 450 per round' (recorded 431-461 units per round, mean 450.1; tolerance covers that range)"
+  },
+  "by_round.80.ratio_mean.lo": {
+   "value": 0.215696,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 80, column lo"
+  },
+  "by_round.80.ratio_mean.hi": {
+   "value": 0.262266,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 80, column hi"
+  },
+  "by_round.80.median_ratio": {
+   "value": 0.218719,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 80, column median"
+  },
+  "by_round.80.share_better": {
+   "value": 1.0,
+   "tol": 0.5,
+   "where": "Figure 4 data (staleness-k16.csv), round 80, column better"
+  },
+  "by_round.80.share_worse_2x": {
+   "value": 0.0,
+   "tol": 0.5,
+   "where": "Figure 4 data (staleness-k16.csv), round 80, column worse2x"
+  },
+  "by_round.81.ratio_mean.mean": {
+   "value": 0.989666,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 81, column mean"
+  },
+  "by_round.81.ratio_mean.lo": {
+   "value": 0.78859,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 81, column lo"
+  },
+  "by_round.81.ratio_mean.hi": {
+   "value": 1.19074,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 81, column hi"
+  },
+  "by_round.81.median_ratio": {
+   "value": 0.457246,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 81, column median"
+  },
+  "by_round.81.share_better": {
+   "value": 0.69281,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 81, column better"
+  },
+  "by_round.81.share_worse_2x": {
+   "value": 0.156863,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 81, column worse2x"
+  },
+  "by_round.82.ratio_mean.mean": {
+   "value": 0.95732,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 82, column mean"
+  },
+  "by_round.82.ratio_mean.lo": {
+   "value": 0.741314,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 82, column lo"
+  },
+  "by_round.82.ratio_mean.hi": {
+   "value": 1.17333,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 82, column hi"
+  },
+  "by_round.82.median_ratio": {
+   "value": 0.488115,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 82, column median"
+  },
+  "by_round.82.share_better": {
+   "value": 0.69011,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 82, column better"
+  },
+  "by_round.82.share_worse_2x": {
+   "value": 0.120879,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 82, column worse2x"
+  },
+  "by_round.84.ratio_mean.mean": {
+   "value": 0.905113,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 84, column mean"
+  },
+  "by_round.84.ratio_mean.lo": {
+   "value": 0.714372,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 84, column lo"
+  },
+  "by_round.84.ratio_mean.hi": {
+   "value": 1.09585,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 84, column hi"
+  },
+  "by_round.84.median_ratio": {
+   "value": 0.507839,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 84, column median"
+  },
+  "by_round.84.share_better": {
+   "value": 0.695364,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 84, column better"
+  },
+  "by_round.84.share_worse_2x": {
+   "value": 0.13245,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 84, column worse2x"
+  },
+  "by_round.88.ratio_mean.mean": {
+   "value": 0.979463,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 88, column mean"
+  },
+  "by_round.88.ratio_mean.lo": {
+   "value": 0.724263,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 88, column lo"
+  },
+  "by_round.88.ratio_mean.hi": {
+   "value": 1.23466,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 88, column hi"
+  },
+  "by_round.88.median_ratio": {
+   "value": 0.414272,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 88, column median"
+  },
+  "by_round.88.share_better": {
+   "value": 0.702461,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 88, column better"
+  },
+  "by_round.88.share_worse_2x": {
+   "value": 0.145414,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 88, column worse2x"
+  },
+  "by_round.96.ratio_mean.mean": {
+   "value": 1.0086,
+   "tol": 5e-05,
+   "where": "Figure 4 data (staleness-k16.csv), round 96, column mean"
+  },
+  "by_round.96.ratio_mean.lo": {
+   "value": 0.806868,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 96, column lo"
+  },
+  "by_round.96.ratio_mean.hi": {
+   "value": 1.21034,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 96, column hi"
+  },
+  "by_round.96.median_ratio": {
+   "value": 0.419709,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 96, column median"
+  },
+  "by_round.96.share_better": {
+   "value": 0.665198,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 96, column better"
+  },
+  "by_round.96.share_worse_2x": {
+   "value": 0.167401,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 96, column worse2x"
+  },
+  "by_round.104.ratio_mean.mean": {
+   "value": 0.882618,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 104, column mean"
+  },
+  "by_round.104.ratio_mean.lo": {
+   "value": 0.625915,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 104, column lo"
+  },
+  "by_round.104.ratio_mean.hi": {
+   "value": 1.13932,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 104, column hi"
+  },
+  "by_round.104.median_ratio": {
+   "value": 0.369427,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 104, column median"
+  },
+  "by_round.104.share_better": {
+   "value": 0.740319,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 104, column better"
+  },
+  "by_round.104.share_worse_2x": {
+   "value": 0.134396,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 104, column worse2x"
+  },
+  "by_round.112.ratio_mean.mean": {
+   "value": 1.31064,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 112, column mean"
+  },
+  "by_round.112.ratio_mean.lo": {
+   "value": 0.974969,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 112, column lo"
+  },
+  "by_round.112.ratio_mean.hi": {
+   "value": 1.64632,
+   "tol": 5e-06,
+   "where": "Figure 4 data (staleness-k16.csv), round 112, column hi"
+  },
+  "by_round.112.median_ratio": {
+   "value": 0.514006,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 112, column median"
+  },
+  "by_round.112.share_better": {
+   "value": 0.650759,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 112, column better"
+  },
+  "by_round.112.share_worse_2x": {
+   "value": 0.193059,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 112, column worse2x"
+  },
+  "by_round.120.ratio_mean.mean": {
+   "value": 0.868145,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 120, column mean"
+  },
+  "by_round.120.ratio_mean.lo": {
+   "value": 0.702687,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 120, column lo"
+  },
+  "by_round.120.ratio_mean.hi": {
+   "value": 1.0336,
+   "tol": 5e-05,
+   "where": "Figure 4 data (staleness-k16.csv), round 120, column hi"
+  },
+  "by_round.120.median_ratio": {
+   "value": 0.410549,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 120, column median"
+  },
+  "by_round.120.share_better": {
+   "value": 0.712297,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 120, column better"
+  },
+  "by_round.120.share_worse_2x": {
+   "value": 0.146172,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16.csv), round 120, column worse2x"
+  },
+  "other_seed_ratio.lo": {
+   "value": 0.287085,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16-other-seed.csv), open circle, column lo"
+  },
+  "other_seed_ratio.hi": {
+   "value": 0.385455,
+   "tol": 5e-07,
+   "where": "Figure 4 data (staleness-k16-other-seed.csv), open circle, column hi"
+  }
+ }
+}

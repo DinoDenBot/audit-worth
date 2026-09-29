@@ -1,0 +1,259 @@
+{
+ "checks": {
+  "rows.femnist_linear_1group.credit_gain": {
+   "value": 0.202,
+   "tol": 0.0005,
+   "where": "Table I, row 'FEMNIST, 1 group', credit gain"
+  },
+  "rows.femnist_linear_1group.flip_rate": {
+   "value": 0.49,
+   "tol": 0.005,
+   "where": "Table I, row 'FEMNIST, 1 group', flip rate"
+  },
+  "rows.femnist_linear_1group.target_effect": {
+   "value": 0.0105,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 1 group', target effect"
+  },
+  "rows.femnist_linear_1group.target_effect_ci_low": {
+   "value": 0.0051,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 1 group', target effect 95% interval, lower end"
+  },
+  "rows.femnist_linear_1group.target_effect_ci_high": {
+   "value": 0.0156,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 1 group', target effect 95% interval, upper end"
+  },
+  "rows.femnist_linear_12groups.credit_gain": {
+   "value": 0.19,
+   "tol": 0.0005,
+   "where": "Table I, row 'FEMNIST, 12 groups', credit gain"
+  },
+  "rows.femnist_linear_12groups.flip_rate": {
+   "value": 0.47,
+   "tol": 0.005,
+   "where": "Table I, row 'FEMNIST, 12 groups', flip rate"
+  },
+  "rows.femnist_linear_12groups.target_effect": {
+   "value": 0.0111,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 12 groups', target effect"
+  },
+  "rows.femnist_linear_12groups.target_effect_ci_low": {
+   "value": 0.0085,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 12 groups', target effect 95% interval, lower end"
+  },
+  "rows.femnist_linear_12groups.target_effect_ci_high": {
+   "value": 0.0135,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 12 groups', target effect 95% interval, upper end"
+  },
+  "rows.har_linear.credit_gain": {
+   "value": 0.057,
+   "tol": 0.0005,
+   "where": "Table I, row 'UCI HAR', credit gain"
+  },
+  "rows.har_linear.flip_rate": {
+   "value": 0.31,
+   "tol": 0.005,
+   "where": "Table I, row 'UCI HAR', flip rate"
+  },
+  "rows.har_linear.target_effect": {
+   "value": 0.009,
+   "tol": 5e-05,
+   "where": "Table I, row 'UCI HAR', target effect"
+  },
+  "rows.har_linear.target_effect_ci_low": {
+   "value": 0.0031,
+   "tol": 5e-05,
+   "where": "Table I, row 'UCI HAR', target effect 95% interval, lower end"
+  },
+  "rows.har_linear.target_effect_ci_high": {
+   "value": 0.0156,
+   "tol": 5e-05,
+   "where": "Table I, row 'UCI HAR', target effect 95% interval, upper end"
+  },
+  "rows.wisdm_linear.credit_gain": {
+   "value": 0.0002,
+   "tol": 5e-05,
+   "where": "Table I, row 'WISDM', credit gain"
+  },
+  "rows.wisdm_linear.flip_rate": {
+   "value": 0,
+   "tol": 0.0,
+   "where": "Table I, row 'WISDM', flip rate (printed as exact 0; the value is exactly zero)"
+  },
+  "rows.wisdm_linear.target_effect": {
+   "value": 0,
+   "tol": 0.0,
+   "where": "Table I, row 'WISDM', target effect (printed as exact 0; the value is exactly zero)"
+  },
+  "rows.wisdm_linear.target_effect_ci_low": {
+   "value": 0,
+   "tol": 0.0,
+   "where": "Table I, row 'WISDM', target effect 95% interval, lower end (printed as exact 0; the value is exactly zero)"
+  },
+  "rows.wisdm_linear.target_effect_ci_high": {
+   "value": 0,
+   "tol": 0.0,
+   "where": "Table I, row 'WISDM', target effect 95% interval, upper end (printed as exact 0; the value is exactly zero)"
+  },
+  "rows.stackoverflow_linear_4groups.credit_gain": {
+   "value": 0.092,
+   "tol": 0.0005,
+   "where": "Table I, row 'Stack Overflow', credit gain"
+  },
+  "rows.stackoverflow_linear_4groups.flip_rate": {
+   "value": 0.09,
+   "tol": 0.005,
+   "where": "Table I, row 'Stack Overflow', flip rate"
+  },
+  "rows.stackoverflow_linear_4groups.target_effect": {
+   "value": 0.0068,
+   "tol": 5e-05,
+   "where": "Table I, row 'Stack Overflow', target effect"
+  },
+  "rows.stackoverflow_linear_4groups.target_effect_ci_low": {
+   "value": 0.0005,
+   "tol": 5e-05,
+   "where": "Table I, row 'Stack Overflow', target effect 95% interval, lower end"
+  },
+  "rows.stackoverflow_linear_4groups.target_effect_ci_high": {
+   "value": 0.013,
+   "tol": 5e-05,
+   "where": "Table I, row 'Stack Overflow', target effect 95% interval, upper end"
+  },
+  "rows.femnist_cnn_5groups.credit_gain": {
+   "value": 0.027,
+   "tol": 0.0005,
+   "where": "Table I, row 'FEMNIST, 5 groups', credit gain"
+  },
+  "rows.femnist_cnn_5groups.flip_rate": {
+   "value": 0.15,
+   "tol": 0.005,
+   "where": "Table I, row 'FEMNIST, 5 groups', flip rate"
+  },
+  "rows.femnist_cnn_5groups.target_effect": {
+   "value": 0.0009,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 5 groups', target effect"
+  },
+  "rows.femnist_cnn_5groups.target_effect_ci_low": {
+   "value": 0.0002,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 5 groups', target effect 95% interval, lower end"
+  },
+  "rows.femnist_cnn_5groups.target_effect_ci_high": {
+   "value": 0.0018,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 5 groups', target effect 95% interval, upper end"
+  },
+  "rows.femnist_cnn_4groups_doubled.credit_gain": {
+   "value": 0.098,
+   "tol": 0.0005,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled updates)', credit gain"
+  },
+  "rows.femnist_cnn_4groups_doubled.flip_rate": {
+   "value": 0.18,
+   "tol": 0.005,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled updates)', flip rate"
+  },
+  "rows.femnist_cnn_4groups_doubled.target_effect": {
+   "value": 0.0132,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled updates)', target effect"
+  },
+  "rows.femnist_cnn_4groups_doubled.target_effect_ci_low": {
+   "value": 0.0051,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled updates)', target effect 95% interval, lower end"
+  },
+  "rows.femnist_cnn_4groups_doubled.target_effect_ci_high": {
+   "value": 0.0258,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled updates)', target effect 95% interval, upper end"
+  },
+  "rows.femnist_cnn_4groups_doubled_bounded.credit_gain": {
+   "value": 0.051,
+   "tol": 0.0005,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled, bounded)', credit gain"
+  },
+  "rows.femnist_cnn_4groups_doubled_bounded.flip_rate": {
+   "value": 0.19,
+   "tol": 0.005,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled, bounded)', flip rate"
+  },
+  "rows.femnist_cnn_4groups_doubled_bounded.target_effect": {
+   "value": 0.0073,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled, bounded)', target effect"
+  },
+  "rows.femnist_cnn_4groups_doubled_bounded.target_effect_ci_low": {
+   "value": -0.0007,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled, bounded)', target effect 95% interval, lower end"
+  },
+  "rows.femnist_cnn_4groups_doubled_bounded.target_effect_ci_high": {
+   "value": 0.0157,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 4 groups (CNN, doubled, bounded)', target effect 95% interval, upper end"
+  },
+  "rows.stackoverflow_mlp_8groups_bounded.credit_gain": {
+   "value": 0.01,
+   "tol": 0.0005,
+   "where": "Table I, row 'Stack Overflow, 8 groups', credit gain"
+  },
+  "rows.stackoverflow_mlp_8groups_bounded.flip_rate": {
+   "value": 0.06,
+   "tol": 0.005,
+   "where": "Table I, row 'Stack Overflow, 8 groups', flip rate"
+  },
+  "rows.stackoverflow_mlp_8groups_bounded.target_effect": {
+   "value": -0.001,
+   "tol": 5e-05,
+   "where": "Table I, row 'Stack Overflow, 8 groups', target effect"
+  },
+  "rows.stackoverflow_mlp_8groups_bounded.target_effect_ci_low": {
+   "value": -0.0023,
+   "tol": 5e-05,
+   "where": "Table I, row 'Stack Overflow, 8 groups', target effect 95% interval, lower end"
+  },
+  "rows.stackoverflow_mlp_8groups_bounded.target_effect_ci_high": {
+   "value": -0.0001,
+   "tol": 5e-05,
+   "where": "Table I, row 'Stack Overflow, 8 groups', target effect 95% interval, upper end"
+  },
+  "rows.femnist_cnn_30groups_keep_current.credit_gain": {
+   "value": 0.0027,
+   "tol": 5e-05,
+   "where": "Table I, row 'FEMNIST, 30 groups', credit gain"
+  },
+  "rows.femnist_cnn_30groups_keep_current.flip_rate": {
+   "value": 0.017,
+   "tol": 0.0005,
+   "where": "Table I, row 'FEMNIST, 30 groups', flip rate"
+  },
+  "rows.femnist_cnn_30groups_keep_current.target_effect": {
+   "value": 2e-05,
+   "tol": 5e-06,
+   "where": "Table I, row 'FEMNIST, 30 groups', target effect"
+  },
+  "rows.femnist_cnn_30groups_keep_current.target_effect_ci_low": {
+   "value": -2e-05,
+   "tol": 5e-06,
+   "where": "Table I, row 'FEMNIST, 30 groups', target effect 95% interval, lower end"
+  },
+  "rows.femnist_cnn_30groups_keep_current.target_effect_ci_high": {
+   "value": 6e-05,
+   "tol": 5e-06,
+   "where": "Table I, row 'FEMNIST, 30 groups', target effect 95% interval, upper end"
+  },
+  "caption_exact_shapley_credit_gain_30groups": {
+   "value": 0.0013,
+   "tol": 5e-05,
+   "where": "Table I caption, exact-Shapley arm of the last row's study"
+  }
+ }
+}

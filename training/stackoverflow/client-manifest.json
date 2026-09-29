@@ -1,0 +1,1817 @@
+{
+ "features": "HashingVectorizer word 1-2 grams, 1024, alternate_sign=False, norm=l2",
+ "groups": [
+  [
+   "2d72f11ca63d764f:00111781",
+   "708469ca7dc5c1ec:00700143",
+   "9f47f2daaa0f0b9d:00268006",
+   "998d6812308e657a:02426818",
+   "b89ab57954afa5d4:01387518",
+   "8c0be33b35f1418a:00816002",
+   "7f5bd9cb65f24a5f:00726162",
+   "599007addc871bcc:00313565",
+   "55e7f5ed96a2faed:00967122",
+   "25ac97f9da0bc40d:00235217",
+   "1da573925d7ef0ad:00450964",
+   "99ed401b7f18e10a:00615903",
+   "69a08f69458622e4:01200914",
+   "1217f2332295d6cf:00496587",
+   "3ff67d63f2d4e106:01042201",
+   "21e00aad836f9a6e:00414688"
+  ],
+  [
+   "540d7e05213645e3:01227991",
+   "df6aede28bca7565:00809623",
+   "5bf2671d4503ff5b:01809221",
+   "7421532d0eaaa5f5:01478722",
+   "2cf198b7e11174d7:00023921",
+   "4b5fe05a56f86d4f:01236694",
+   "255e0c911d2b0def:00141831",
+   "cf7d66f993b3048f:02483271",
+   "85b5bda2101bc0ac:00725431",
+   "9cf30b25f5725024:01667344",
+   "0e1d50c375dce01e:02244438",
+   "fbeef8b3bddfe80f:01149736",
+   "773df3e0c56a7949:01567428",
+   "2775d94258e03a55:00320948",
+   "4a4b9f3601b8f205:05573959",
+   "fa9decc2a81b6745:00075554"
+  ],
+  [
+   "c0ca851812677a19:00091962",
+   "45ef61c91a6e7f10:00348841",
+   "cf4c35cff3563497:01409312",
+   "91483e6b4fe1a15b:01297269",
+   "aa9e6f3f03dffa81:00058375",
+   "17b92410a87247aa:00427292",
+   "1bdd4346c78e68af:08237878",
+   "965f17be5dd22c5e:02270247",
+   "17d998b528061348:04644565",
+   "f3b514513e3d4dde:00486979",
+   "69932867a8ce9805:00217866",
+   "b09bf28d83a1e40d:02606598",
+   "9664dffcde8757ec:01254812",
+   "80ad11c2e4dcdd2f:03828678",
+   "86b01f3ca326bcd8:01134291",
+   "c2c048aa4cd0fa86:00275807"
+  ],
+  [
+   "ff626f925b77edb1:00507256",
+   "b8b31a31e1b72dba:01318528",
+   "f5171382c90bc4f7:01625795",
+   "3a4ff8d523eccb1e:00452792",
+   "2a5a6fda9953f751:00125871",
+   "709fd706d90dc3a6:00849645",
+   "f88d13d36768152f:03674127",
+   "c9efa929180ac8dc:00098057",
+   "7226433f1ef5451e:01629001",
+   "fc2419bf6d890017:01114155",
+   "cbf20b41e25a29a3:01605937",
+   "00a82f7649d172e3:01631414",
+   "5f8daf463baa7100:01083652",
+   "7b6bd1ba763c5e64:01589379",
+   "f7deeab75c0a30a5:02710486",
+   "456d989354087622:04023805"
+  ],
+  [
+   "ac7b9ee346dcc088:00373051",
+   "49873ef23b0c933f:07373404",
+   "bd9feb22acff6a76:04624683",
+   "6e17196edc845883:00719034",
+   "71649cc3d5c6f113:00011906",
+   "f7f9a509fee026d1:00318765",
+   "3fe3f89401ca8b42:02956115",
+   "5798d7d2786b109d:02073349",
+   "650d3944006e68c9:00121257",
+   "fdda00edfc4030a6:05208406",
+   "11e50f49b2bc8d4e:01237776",
+   "4fad0eb8814229e5:00248343",
+   "fd9a167714ba9331:05688082",
+   "189699e1398e1411:01305612",
+   "aec9bf72cd6428e4:00082526",
+   "5f35fbb013f3b978:01344461"
+  ],
+  [
+   "c4a7059ff83805b9:02806163",
+   "7c01df9ecbd75f47:01381708",
+   "0ee7b81338929c0a:01538445",
+   "8f25ec02be68219a:00002726",
+   "e2d549539dc467dc:02146682",
+   "77f1cb929ac24845:01354517",
+   "d819b80a2e172b88:02212128",
+   "1d5b564e4bfed97c:06625726",
+   "35923249c39b37b9:01447589",
+   "e027563c59825a94:01196617",
+   "b7c5bf29e1e351f3:01175892",
+   "a09fe67f801cee7d:00557362",
+   "2eb2870c76c6a34e:02475084",
+   "da0f2091ead7d9c3:00008362",
+   "e6268d0b09ca3ab5:00257261",
+   "edbb2e50e9d7a782:01680768"
+  ],
+  [
+   "655c4e1b23b9568e:00290082",
+   "74932261937858f1:03072267",
+   "33b1077608187f3d:02200417",
+   "cebef5f6fbe07620:03685705",
+   "1631fb189d031770:00051101",
+   "3bc886e2aa44154a:03126753",
+   "25f11e26eacfc188:01282043",
+   "ab4976f18b8b4dba:01227038",
+   "c2d9c9a7aee8732c:00003333",
+   "fb54eafe69ea133e:01028256",
+   "6b9b5c525e2ea0a4:00582643",
+   "050aebddb188da67:00168313",
+   "27975080ca71fbd1:00063775",
+   "b271cb24f7d596a7:03708225",
+   "d4f4b4360a3ba452:02425851",
+   "47fb4bedd29105e3:01499698"
+  ],
+  [
+   "5b6867bbb2cdd567:00531346",
+   "7f3f47bd3bb4f08a:01465623",
+   "83bcf461f9c32269:00975797",
+   "a88691cbf233cfd1:00150872",
+   "d43ec47354b75ce7:02873559",
+   "1f2209ccf8e9632d:00448296",
+   "5ceacb718c20102f:06818284",
+   "6b071bed5a32690a:01541736",
+   "436f366bc8a67346:00582386",
+   "9fb49f982f77ba99:01097858",
+   "d68c6128fd09de6f:00176646",
+   "099c11b07fcf3a9f:02884831",
+   "612ebe868894d41e:02158478",
+   "97f25583bb347d69:02413651",
+   "7f98bb11daaadbc6:00712997",
+   "02a4960c0093a804:03287551"
+  ],
+  [
+   "6a629dc12a7152ee:00158554",
+   "896678a256aeb97d:03454879",
+   "74e2c1ac1bad80e7:04204026",
+   "effcade8c825e9df:00643383",
+   "5e0ec1d0b4f41ee3:00598343",
+   "bb7d58ccdd4846c1:00508907",
+   "69190c5200af1185:01675804",
+   "34f63660c11403a9:01397997",
+   "5674967a0d6bb71e:01622344",
+   "520af57d4c993a9a:00106303",
+   "387770fe27f8d192:01398581",
+   "0f423cd4eeccdac6:02547324",
+   "564f07ffbc32a338:00259573",
+   "6c047586c9f3d258:00003759",
+   "c6e4dcee6fdc4cec:07430237",
+   "bebda2bfcbfd67e4:03118956"
+  ]
+ ],
+ "minimums": [
+  64,
+  32,
+  16,
+  16
+ ],
+ "note": "Group 0 was used for design only; groups 1-8 are analysed. Users are numbered in the order of the concatenated groups. players[g] are the four contributors of group g, in provider order.",
+ "players": [
+  [
+   "998d6812308e657a:02426818",
+   "1217f2332295d6cf:00496587",
+   "55e7f5ed96a2faed:00967122",
+   "9f47f2daaa0f0b9d:00268006"
+  ],
+  [
+   "2775d94258e03a55:00320948",
+   "fa9decc2a81b6745:00075554",
+   "9cf30b25f5725024:01667344",
+   "cf7d66f993b3048f:02483271"
+  ],
+  [
+   "aa9e6f3f03dffa81:00058375",
+   "17d998b528061348:04644565",
+   "cf4c35cff3563497:01409312",
+   "86b01f3ca326bcd8:01134291"
+  ],
+  [
+   "f7deeab75c0a30a5:02710486",
+   "7b6bd1ba763c5e64:01589379",
+   "7226433f1ef5451e:01629001",
+   "00a82f7649d172e3:01631414"
+  ],
+  [
+   "3fe3f89401ca8b42:02956115",
+   "f7f9a509fee026d1:00318765",
+   "11e50f49b2bc8d4e:01237776",
+   "bd9feb22acff6a76:04624683"
+  ],
+  [
+   "e6268d0b09ca3ab5:00257261",
+   "c4a7059ff83805b9:02806163",
+   "a09fe67f801cee7d:00557362",
+   "edbb2e50e9d7a782:01680768"
+  ],
+  [
+   "cebef5f6fbe07620:03685705",
+   "3bc886e2aa44154a:03126753",
+   "fb54eafe69ea133e:01028256",
+   "6b9b5c525e2ea0a4:00582643"
+  ],
+  [
+   "1f2209ccf8e9632d:00448296",
+   "a88691cbf233cfd1:00150872",
+   "7f98bb11daaadbc6:00712997",
+   "7f3f47bd3bb4f08a:01465623"
+  ],
+  [
+   "34f63660c11403a9:01397997",
+   "6a629dc12a7152ee:00158554",
+   "5e0ec1d0b4f41ee3:00598343",
+   "387770fe27f8d192:01398581"
+  ]
+ ],
+ "source_sha256": "3efde71d939fd7cb58d357dd3c060c3a8c8babec7607df9c9cc549034bafc646",
+ "users": {
+  "00a82f7649d172e3:01631414": {
+   "post_groups": 121,
+   "question_count": 1198,
+   "role_counts": [
+    638,
+    293,
+    244,
+    117
+   ],
+   "source_count": 1292
+  },
+  "02a4960c0093a804:03287551": {
+   "post_groups": 44,
+   "question_count": 332,
+   "role_counts": [
+    154,
+    120,
+    47,
+    29
+   ],
+   "source_count": 350
+  },
+  "050aebddb188da67:00168313": {
+   "post_groups": 68,
+   "question_count": 363,
+   "role_counts": [
+    188,
+    101,
+    75,
+    36
+   ],
+   "source_count": 400
+  },
+  "099c11b07fcf3a9f:02884831": {
+   "post_groups": 62,
+   "question_count": 59,
+   "role_counts": [
+    170,
+    38,
+    22,
+    29
+   ],
+   "source_count": 259
+  },
+  "0e1d50c375dce01e:02244438": {
+   "post_groups": 149,
+   "question_count": 780,
+   "role_counts": [
+    736,
+    421,
+    104,
+    124
+   ],
+   "source_count": 1385
+  },
+  "0ee7b81338929c0a:01538445": {
+   "post_groups": 101,
+   "question_count": 0,
+   "role_counts": [
+    245,
+    118,
+    50,
+    35
+   ],
+   "source_count": 448
+  },
+  "0f423cd4eeccdac6:02547324": {
+   "post_groups": 92,
+   "question_count": 1247,
+   "role_counts": [
+    713,
+    255,
+    183,
+    226
+   ],
+   "source_count": 1377
+  },
+  "11e50f49b2bc8d4e:01237776": {
+   "post_groups": 88,
+   "question_count": 27,
+   "role_counts": [
+    212,
+    86,
+    58,
+    39
+   ],
+   "source_count": 395
+  },
+  "1217f2332295d6cf:00496587": {
+   "post_groups": 42,
+   "question_count": 46,
+   "role_counts": [
+    160,
+    73,
+    30,
+    36
+   ],
+   "source_count": 299
+  },
+  "1631fb189d031770:00051101": {
+   "post_groups": 228,
+   "question_count": 193,
+   "role_counts": [
+    995,
+    493,
+    282,
+    197
+   ],
+   "source_count": 1967
+  },
+  "17b92410a87247aa:00427292": {
+   "post_groups": 451,
+   "question_count": 2898,
+   "role_counts": [
+    1473,
+    691,
+    417,
+    441
+   ],
+   "source_count": 3022
+  },
+  "17d998b528061348:04644565": {
+   "post_groups": 41,
+   "question_count": 295,
+   "role_counts": [
+    120,
+    86,
+    34,
+    55
+   ],
+   "source_count": 295
+  },
+  "189699e1398e1411:01305612": {
+   "post_groups": 78,
+   "question_count": 405,
+   "role_counts": [
+    190,
+    88,
+    73,
+    56
+   ],
+   "source_count": 407
+  },
+  "1bdd4346c78e68af:08237878": {
+   "post_groups": 34,
+   "question_count": 347,
+   "role_counts": [
+    157,
+    91,
+    63,
+    43
+   ],
+   "source_count": 354
+  },
+  "1d5b564e4bfed97c:06625726": {
+   "post_groups": 191,
+   "question_count": 0,
+   "role_counts": [
+    490,
+    332,
+    134,
+    168
+   ],
+   "source_count": 1124
+  },
+  "1da573925d7ef0ad:00450964": {
+   "post_groups": 131,
+   "question_count": 0,
+   "role_counts": [
+    268,
+    107,
+    46,
+    57
+   ],
+   "source_count": 478
+  },
+  "1f2209ccf8e9632d:00448296": {
+   "post_groups": 418,
+   "question_count": 99,
+   "role_counts": [
+    1356,
+    644,
+    305,
+    254
+   ],
+   "source_count": 2559
+  },
+  "21e00aad836f9a6e:00414688": {
+   "post_groups": 76,
+   "question_count": 511,
+   "role_counts": [
+    327,
+    110,
+    65,
+    46
+   ],
+   "source_count": 548
+  },
+  "255e0c911d2b0def:00141831": {
+   "post_groups": 124,
+   "question_count": 495,
+   "role_counts": [
+    312,
+    143,
+    73,
+    67
+   ],
+   "source_count": 595
+  },
+  "25ac97f9da0bc40d:00235217": {
+   "post_groups": 76,
+   "question_count": 117,
+   "role_counts": [
+    222,
+    96,
+    46,
+    37
+   ],
+   "source_count": 401
+  },
+  "25f11e26eacfc188:01282043": {
+   "post_groups": 66,
+   "question_count": 410,
+   "role_counts": [
+    271,
+    113,
+    62,
+    30
+   ],
+   "source_count": 476
+  },
+  "2775d94258e03a55:00320948": {
+   "post_groups": 99,
+   "question_count": 71,
+   "role_counts": [
+    242,
+    82,
+    53,
+    60
+   ],
+   "source_count": 437
+  },
+  "27975080ca71fbd1:00063775": {
+   "post_groups": 289,
+   "question_count": 690,
+   "role_counts": [
+    649,
+    406,
+    260,
+    185
+   ],
+   "source_count": 1500
+  },
+  "2a5a6fda9953f751:00125871": {
+   "post_groups": 225,
+   "question_count": 91,
+   "role_counts": [
+    418,
+    200,
+    127,
+    139
+   ],
+   "source_count": 884
+  },
+  "2cf198b7e11174d7:00023921": {
+   "post_groups": 260,
+   "question_count": 0,
+   "role_counts": [
+    469,
+    265,
+    188,
+    104
+   ],
+   "source_count": 1026
+  },
+  "2d72f11ca63d764f:00111781": {
+   "post_groups": 196,
+   "question_count": 33,
+   "role_counts": [
+    417,
+    228,
+    117,
+    133
+   ],
+   "source_count": 895
+  },
+  "2eb2870c76c6a34e:02475084": {
+   "post_groups": 50,
+   "question_count": 80,
+   "role_counts": [
+    169,
+    79,
+    59,
+    43
+   ],
+   "source_count": 350
+  },
+  "33b1077608187f3d:02200417": {
+   "post_groups": 151,
+   "question_count": 284,
+   "role_counts": [
+    427,
+    212,
+    81,
+    118
+   ],
+   "source_count": 838
+  },
+  "34f63660c11403a9:01397997": {
+   "post_groups": 71,
+   "question_count": 692,
+   "role_counts": [
+    428,
+    129,
+    63,
+    111
+   ],
+   "source_count": 731
+  },
+  "35923249c39b37b9:01447589": {
+   "post_groups": 53,
+   "question_count": 178,
+   "role_counts": [
+    148,
+    67,
+    45,
+    33
+   ],
+   "source_count": 293
+  },
+  "387770fe27f8d192:01398581": {
+   "post_groups": 305,
+   "question_count": 345,
+   "role_counts": [
+    1083,
+    403,
+    174,
+    250
+   ],
+   "source_count": 1910
+  },
+  "3a4ff8d523eccb1e:00452792": {
+   "post_groups": 270,
+   "question_count": 300,
+   "role_counts": [
+    638,
+    287,
+    120,
+    162
+   ],
+   "source_count": 1207
+  },
+  "3bc886e2aa44154a:03126753": {
+   "post_groups": 64,
+   "question_count": 233,
+   "role_counts": [
+    171,
+    92,
+    52,
+    37
+   ],
+   "source_count": 352
+  },
+  "3fe3f89401ca8b42:02956115": {
+   "post_groups": 150,
+   "question_count": 15,
+   "role_counts": [
+    374,
+    235,
+    141,
+    101
+   ],
+   "source_count": 851
+  },
+  "3ff67d63f2d4e106:01042201": {
+   "post_groups": 98,
+   "question_count": 25,
+   "role_counts": [
+    265,
+    98,
+    66,
+    60
+   ],
+   "source_count": 489
+  },
+  "436f366bc8a67346:00582386": {
+   "post_groups": 104,
+   "question_count": 23,
+   "role_counts": [
+    216,
+    127,
+    94,
+    58
+   ],
+   "source_count": 495
+  },
+  "456d989354087622:04023805": {
+   "post_groups": 55,
+   "question_count": 497,
+   "role_counts": [
+    234,
+    163,
+    44,
+    83
+   ],
+   "source_count": 524
+  },
+  "45ef61c91a6e7f10:00348841": {
+   "post_groups": 171,
+   "question_count": 476,
+   "role_counts": [
+    542,
+    202,
+    48,
+    118
+   ],
+   "source_count": 910
+  },
+  "47fb4bedd29105e3:01499698": {
+   "post_groups": 492,
+   "question_count": 14,
+   "role_counts": [
+    1486,
+    643,
+    373,
+    334
+   ],
+   "source_count": 2836
+  },
+  "49873ef23b0c933f:07373404": {
+   "post_groups": 46,
+   "question_count": 152,
+   "role_counts": [
+    168,
+    63,
+    31,
+    35
+   ],
+   "source_count": 297
+  },
+  "4a4b9f3601b8f205:05573959": {
+   "post_groups": 47,
+   "question_count": 263,
+   "role_counts": [
+    108,
+    90,
+    59,
+    25
+   ],
+   "source_count": 282
+  },
+  "4b5fe05a56f86d4f:01236694": {
+   "post_groups": 100,
+   "question_count": 550,
+   "role_counts": [
+    284,
+    139,
+    76,
+    55
+   ],
+   "source_count": 554
+  },
+  "4fad0eb8814229e5:00248343": {
+   "post_groups": 87,
+   "question_count": 6,
+   "role_counts": [
+    143,
+    53,
+    51,
+    21
+   ],
+   "source_count": 268
+  },
+  "520af57d4c993a9a:00106303": {
+   "post_groups": 119,
+   "question_count": 369,
+   "role_counts": [
+    261,
+    172,
+    80,
+    108
+   ],
+   "source_count": 621
+  },
+  "540d7e05213645e3:01227991": {
+   "post_groups": 210,
+   "question_count": 85,
+   "role_counts": [
+    716,
+    349,
+    135,
+    116
+   ],
+   "source_count": 1316
+  },
+  "55e7f5ed96a2faed:00967122": {
+   "post_groups": 41,
+   "question_count": 204,
+   "role_counts": [
+    164,
+    72,
+    59,
+    51
+   ],
+   "source_count": 346
+  },
+  "564f07ffbc32a338:00259573": {
+   "post_groups": 27,
+   "question_count": 0,
+   "role_counts": [
+    189,
+    48,
+    24,
+    21
+   ],
+   "source_count": 282
+  },
+  "5674967a0d6bb71e:01622344": {
+   "post_groups": 50,
+   "question_count": 259,
+   "role_counts": [
+    161,
+    120,
+    18,
+    30
+   ],
+   "source_count": 329
+  },
+  "5798d7d2786b109d:02073349": {
+   "post_groups": 101,
+   "question_count": 60,
+   "role_counts": [
+    281,
+    192,
+    74,
+    59
+   ],
+   "source_count": 606
+  },
+  "599007addc871bcc:00313565": {
+   "post_groups": 42,
+   "question_count": 342,
+   "role_counts": [
+    166,
+    92,
+    33,
+    53
+   ],
+   "source_count": 344
+  },
+  "5b6867bbb2cdd567:00531346": {
+   "post_groups": 84,
+   "question_count": 225,
+   "role_counts": [
+    220,
+    74,
+    53,
+    59
+   ],
+   "source_count": 406
+  },
+  "5bf2671d4503ff5b:01809221": {
+   "post_groups": 121,
+   "question_count": 464,
+   "role_counts": [
+    434,
+    216,
+    63,
+    88
+   ],
+   "source_count": 801
+  },
+  "5ceacb718c20102f:06818284": {
+   "post_groups": 118,
+   "question_count": 33,
+   "role_counts": [
+    182,
+    88,
+    33,
+    73
+   ],
+   "source_count": 376
+  },
+  "5e0ec1d0b4f41ee3:00598343": {
+   "post_groups": 199,
+   "question_count": 886,
+   "role_counts": [
+    530,
+    224,
+    89,
+    166
+   ],
+   "source_count": 1009
+  },
+  "5f35fbb013f3b978:01344461": {
+   "post_groups": 96,
+   "question_count": 43,
+   "role_counts": [
+    198,
+    161,
+    72,
+    70
+   ],
+   "source_count": 501
+  },
+  "5f8daf463baa7100:01083652": {
+   "post_groups": 498,
+   "question_count": 29,
+   "role_counts": [
+    748,
+    350,
+    164,
+    235
+   ],
+   "source_count": 1497
+  },
+  "612ebe868894d41e:02158478": {
+   "post_groups": 54,
+   "question_count": 328,
+   "role_counts": [
+    173,
+    66,
+    63,
+    40
+   ],
+   "source_count": 342
+  },
+  "650d3944006e68c9:00121257": {
+   "post_groups": 38,
+   "question_count": 220,
+   "role_counts": [
+    151,
+    77,
+    16,
+    48
+   ],
+   "source_count": 292
+  },
+  "655c4e1b23b9568e:00290082": {
+   "post_groups": 237,
+   "question_count": 1283,
+   "role_counts": [
+    623,
+    305,
+    159,
+    196
+   ],
+   "source_count": 1283
+  },
+  "69190c5200af1185:01675804": {
+   "post_groups": 126,
+   "question_count": 21,
+   "role_counts": [
+    260,
+    129,
+    37,
+    63
+   ],
+   "source_count": 489
+  },
+  "69932867a8ce9805:00217866": {
+   "post_groups": 86,
+   "question_count": 197,
+   "role_counts": [
+    221,
+    92,
+    59,
+    87
+   ],
+   "source_count": 459
+  },
+  "69a08f69458622e4:01200914": {
+   "post_groups": 74,
+   "question_count": 425,
+   "role_counts": [
+    254,
+    154,
+    56,
+    82
+   ],
+   "source_count": 546
+  },
+  "6a629dc12a7152ee:00158554": {
+   "post_groups": 123,
+   "question_count": 0,
+   "role_counts": [
+    190,
+    76,
+    59,
+    34
+   ],
+   "source_count": 359
+  },
+  "6b071bed5a32690a:01541736": {
+   "post_groups": 57,
+   "question_count": 246,
+   "role_counts": [
+    138,
+    77,
+    21,
+    45
+   ],
+   "source_count": 281
+  },
+  "6b9b5c525e2ea0a4:00582643": {
+   "post_groups": 55,
+   "question_count": 279,
+   "role_counts": [
+    196,
+    61,
+    18,
+    52
+   ],
+   "source_count": 327
+  },
+  "6c047586c9f3d258:00003759": {
+   "post_groups": 51,
+   "question_count": 115,
+   "role_counts": [
+    213,
+    84,
+    33,
+    49
+   ],
+   "source_count": 379
+  },
+  "6e17196edc845883:00719034": {
+   "post_groups": 634,
+   "question_count": 258,
+   "role_counts": [
+    1223,
+    586,
+    283,
+    285
+   ],
+   "source_count": 2377
+  },
+  "708469ca7dc5c1ec:00700143": {
+   "post_groups": 59,
+   "question_count": 354,
+   "role_counts": [
+    302,
+    213,
+    160,
+    122
+   ],
+   "source_count": 797
+  },
+  "709fd706d90dc3a6:00849645": {
+   "post_groups": 173,
+   "question_count": 27,
+   "role_counts": [
+    404,
+    176,
+    102,
+    103
+   ],
+   "source_count": 785
+  },
+  "71649cc3d5c6f113:00011906": {
+   "post_groups": 108,
+   "question_count": 772,
+   "role_counts": [
+    504,
+    147,
+    81,
+    134
+   ],
+   "source_count": 866
+  },
+  "7226433f1ef5451e:01629001": {
+   "post_groups": 35,
+   "question_count": 252,
+   "role_counts": [
+    156,
+    81,
+    79,
+    38
+   ],
+   "source_count": 354
+  },
+  "7421532d0eaaa5f5:01478722": {
+   "post_groups": 101,
+   "question_count": 111,
+   "role_counts": [
+    175,
+    146,
+    47,
+    59
+   ],
+   "source_count": 427
+  },
+  "74932261937858f1:03072267": {
+   "post_groups": 33,
+   "question_count": 12,
+   "role_counts": [
+    149,
+    99,
+    29,
+    16
+   ],
+   "source_count": 293
+  },
+  "74e2c1ac1bad80e7:04204026": {
+   "post_groups": 159,
+   "question_count": 134,
+   "role_counts": [
+    385,
+    210,
+    68,
+    73
+   ],
+   "source_count": 736
+  },
+  "773df3e0c56a7949:01567428": {
+   "post_groups": 90,
+   "question_count": 574,
+   "role_counts": [
+    284,
+    156,
+    96,
+    58
+   ],
+   "source_count": 594
+  },
+  "77f1cb929ac24845:01354517": {
+   "post_groups": 69,
+   "question_count": 371,
+   "role_counts": [
+    260,
+    97,
+    50,
+    49
+   ],
+   "source_count": 456
+  },
+  "7b6bd1ba763c5e64:01589379": {
+   "post_groups": 108,
+   "question_count": 0,
+   "role_counts": [
+    329,
+    216,
+    80,
+    100
+   ],
+   "source_count": 725
+  },
+  "7c01df9ecbd75f47:01381708": {
+   "post_groups": 137,
+   "question_count": 223,
+   "role_counts": [
+    491,
+    163,
+    110,
+    225
+   ],
+   "source_count": 989
+  },
+  "7f3f47bd3bb4f08a:01465623": {
+   "post_groups": 182,
+   "question_count": 340,
+   "role_counts": [
+    359,
+    219,
+    63,
+    120
+   ],
+   "source_count": 761
+  },
+  "7f5bd9cb65f24a5f:00726162": {
+   "post_groups": 66,
+   "question_count": 197,
+   "role_counts": [
+    154,
+    82,
+    22,
+    20
+   ],
+   "source_count": 278
+  },
+  "7f98bb11daaadbc6:00712997": {
+   "post_groups": 230,
+   "question_count": 1447,
+   "role_counts": [
+    778,
+    440,
+    207,
+    215
+   ],
+   "source_count": 1640
+  },
+  "80ad11c2e4dcdd2f:03828678": {
+   "post_groups": 61,
+   "question_count": 65,
+   "role_counts": [
+    149,
+    86,
+    44,
+    50
+   ],
+   "source_count": 329
+  },
+  "83bcf461f9c32269:00975797": {
+   "post_groups": 98,
+   "question_count": 47,
+   "role_counts": [
+    174,
+    110,
+    46,
+    84
+   ],
+   "source_count": 414
+  },
+  "85b5bda2101bc0ac:00725431": {
+   "post_groups": 70,
+   "question_count": 253,
+   "role_counts": [
+    113,
+    82,
+    33,
+    40
+   ],
+   "source_count": 268
+  },
+  "86b01f3ca326bcd8:01134291": {
+   "post_groups": 126,
+   "question_count": 189,
+   "role_counts": [
+    315,
+    90,
+    29,
+    64
+   ],
+   "source_count": 498
+  },
+  "896678a256aeb97d:03454879": {
+   "post_groups": 205,
+   "question_count": 3,
+   "role_counts": [
+    374,
+    146,
+    78,
+    138
+   ],
+   "source_count": 736
+  },
+  "8c0be33b35f1418a:00816002": {
+   "post_groups": 94,
+   "question_count": 346,
+   "role_counts": [
+    290,
+    120,
+    50,
+    68
+   ],
+   "source_count": 528
+  },
+  "8f25ec02be68219a:00002726": {
+   "post_groups": 61,
+   "question_count": 68,
+   "role_counts": [
+    159,
+    83,
+    46,
+    37
+   ],
+   "source_count": 325
+  },
+  "91483e6b4fe1a15b:01297269": {
+   "post_groups": 162,
+   "question_count": 198,
+   "role_counts": [
+    339,
+    174,
+    90,
+    125
+   ],
+   "source_count": 728
+  },
+  "965f17be5dd22c5e:02270247": {
+   "post_groups": 49,
+   "question_count": 171,
+   "role_counts": [
+    239,
+    82,
+    31,
+    58
+   ],
+   "source_count": 410
+  },
+  "9664dffcde8757ec:01254812": {
+   "post_groups": 175,
+   "question_count": 298,
+   "role_counts": [
+    645,
+    338,
+    190,
+    153
+   ],
+   "source_count": 1326
+  },
+  "97f25583bb347d69:02413651": {
+   "post_groups": 103,
+   "question_count": 36,
+   "role_counts": [
+    245,
+    119,
+    24,
+    33
+   ],
+   "source_count": 421
+  },
+  "998d6812308e657a:02426818": {
+   "post_groups": 133,
+   "question_count": 45,
+   "role_counts": [
+    350,
+    134,
+    79,
+    215
+   ],
+   "source_count": 778
+  },
+  "99ed401b7f18e10a:00615903": {
+   "post_groups": 93,
+   "question_count": 8,
+   "role_counts": [
+    176,
+    86,
+    29,
+    72
+   ],
+   "source_count": 363
+  },
+  "9cf30b25f5725024:01667344": {
+   "post_groups": 72,
+   "question_count": 513,
+   "role_counts": [
+    319,
+    145,
+    31,
+    70
+   ],
+   "source_count": 565
+  },
+  "9f47f2daaa0f0b9d:00268006": {
+   "post_groups": 77,
+   "question_count": 590,
+   "role_counts": [
+    350,
+    183,
+    79,
+    95
+   ],
+   "source_count": 707
+  },
+  "9fb49f982f77ba99:01097858": {
+   "post_groups": 56,
+   "question_count": 4,
+   "role_counts": [
+    170,
+    68,
+    32,
+    42
+   ],
+   "source_count": 312
+  },
+  "a09fe67f801cee7d:00557362": {
+   "post_groups": 100,
+   "question_count": 225,
+   "role_counts": [
+    538,
+    162,
+    39,
+    91
+   ],
+   "source_count": 830
+  },
+  "a88691cbf233cfd1:00150872": {
+   "post_groups": 97,
+   "question_count": 199,
+   "role_counts": [
+    332,
+    83,
+    42,
+    65
+   ],
+   "source_count": 522
+  },
+  "aa9e6f3f03dffa81:00058375": {
+   "post_groups": 140,
+   "question_count": 650,
+   "role_counts": [
+    412,
+    191,
+    114,
+    103
+   ],
+   "source_count": 820
+  },
+  "ab4976f18b8b4dba:01227038": {
+   "post_groups": 54,
+   "question_count": 333,
+   "role_counts": [
+    179,
+    51,
+    63,
+    40
+   ],
+   "source_count": 333
+  },
+  "ac7b9ee346dcc088:00373051": {
+   "post_groups": 125,
+   "question_count": 135,
+   "role_counts": [
+    153,
+    60,
+    70,
+    59
+   ],
+   "source_count": 342
+  },
+  "aec9bf72cd6428e4:00082526": {
+   "post_groups": 98,
+   "question_count": 67,
+   "role_counts": [
+    165,
+    84,
+    41,
+    52
+   ],
+   "source_count": 342
+  },
+  "b09bf28d83a1e40d:02606598": {
+   "post_groups": 331,
+   "question_count": 1905,
+   "role_counts": [
+    929,
+    448,
+    342,
+    243
+   ],
+   "source_count": 1962
+  },
+  "b271cb24f7d596a7:03708225": {
+   "post_groups": 56,
+   "question_count": 380,
+   "role_counts": [
+    196,
+    86,
+    72,
+    42
+   ],
+   "source_count": 396
+  },
+  "b7c5bf29e1e351f3:01175892": {
+   "post_groups": 47,
+   "question_count": 253,
+   "role_counts": [
+    144,
+    115,
+    45,
+    21
+   ],
+   "source_count": 325
+  },
+  "b89ab57954afa5d4:01387518": {
+   "post_groups": 82,
+   "question_count": 134,
+   "role_counts": [
+    192,
+    96,
+    55,
+    45
+   ],
+   "source_count": 388
+  },
+  "b8b31a31e1b72dba:01318528": {
+   "post_groups": 64,
+   "question_count": 229,
+   "role_counts": [
+    179,
+    84,
+    64,
+    36
+   ],
+   "source_count": 363
+  },
+  "bb7d58ccdd4846c1:00508907": {
+   "post_groups": 102,
+   "question_count": 120,
+   "role_counts": [
+    274,
+    161,
+    73,
+    80
+   ],
+   "source_count": 588
+  },
+  "bd9feb22acff6a76:04624683": {
+   "post_groups": 152,
+   "question_count": 22,
+   "role_counts": [
+    258,
+    80,
+    40,
+    78
+   ],
+   "source_count": 456
+  },
+  "bebda2bfcbfd67e4:03118956": {
+   "post_groups": 198,
+   "question_count": 1151,
+   "role_counts": [
+    700,
+    298,
+    233,
+    88
+   ],
+   "source_count": 1319
+  },
+  "c0ca851812677a19:00091962": {
+   "post_groups": 162,
+   "question_count": 64,
+   "role_counts": [
+    472,
+    196,
+    112,
+    145
+   ],
+   "source_count": 925
+  },
+  "c2c048aa4cd0fa86:00275807": {
+   "post_groups": 174,
+   "question_count": 557,
+   "role_counts": [
+    384,
+    133,
+    82,
+    98
+   ],
+   "source_count": 697
+  },
+  "c2d9c9a7aee8732c:00003333": {
+   "post_groups": 1289,
+   "question_count": 859,
+   "role_counts": [
+    2256,
+    947,
+    496,
+    498
+   ],
+   "source_count": 4197
+  },
+  "c4a7059ff83805b9:02806163": {
+   "post_groups": 111,
+   "question_count": 463,
+   "role_counts": [
+    386,
+    161,
+    127,
+    114
+   ],
+   "source_count": 788
+  },
+  "c6e4dcee6fdc4cec:07430237": {
+   "post_groups": 99,
+   "question_count": 650,
+   "role_counts": [
+    372,
+    108,
+    82,
+    88
+   ],
+   "source_count": 650
+  },
+  "c9efa929180ac8dc:00098057": {
+   "post_groups": 296,
+   "question_count": 79,
+   "role_counts": [
+    790,
+    294,
+    207,
+    233
+   ],
+   "source_count": 1524
+  },
+  "cbf20b41e25a29a3:01605937": {
+   "post_groups": 95,
+   "question_count": 646,
+   "role_counts": [
+    349,
+    162,
+    76,
+    93
+   ],
+   "source_count": 680
+  },
+  "cebef5f6fbe07620:03685705": {
+   "post_groups": 63,
+   "question_count": 173,
+   "role_counts": [
+    127,
+    69,
+    55,
+    35
+   ],
+   "source_count": 286
+  },
+  "cf4c35cff3563497:01409312": {
+   "post_groups": 448,
+   "question_count": 1653,
+   "role_counts": [
+    1116,
+    629,
+    317,
+    259
+   ],
+   "source_count": 2321
+  },
+  "cf7d66f993b3048f:02483271": {
+   "post_groups": 269,
+   "question_count": 515,
+   "role_counts": [
+    721,
+    358,
+    195,
+    199
+   ],
+   "source_count": 1473
+  },
+  "d43ec47354b75ce7:02873559": {
+   "post_groups": 35,
+   "question_count": 123,
+   "role_counts": [
+    111,
+    82,
+    43,
+    22
+   ],
+   "source_count": 258
+  },
+  "d4f4b4360a3ba452:02425851": {
+   "post_groups": 191,
+   "question_count": 583,
+   "role_counts": [
+    395,
+    228,
+    75,
+    106
+   ],
+   "source_count": 804
+  },
+  "d68c6128fd09de6f:00176646": {
+   "post_groups": 449,
+   "question_count": 230,
+   "role_counts": [
+    1752,
+    854,
+    368,
+    394
+   ],
+   "source_count": 3368
+  },
+  "d819b80a2e172b88:02212128": {
+   "post_groups": 105,
+   "question_count": 25,
+   "role_counts": [
+    253,
+    132,
+    75,
+    69
+   ],
+   "source_count": 529
+  },
+  "da0f2091ead7d9c3:00008362": {
+   "post_groups": 118,
+   "question_count": 106,
+   "role_counts": [
+    223,
+    74,
+    44,
+    73
+   ],
+   "source_count": 414
+  },
+  "df6aede28bca7565:00809623": {
+   "post_groups": 77,
+   "question_count": 148,
+   "role_counts": [
+    226,
+    115,
+    36,
+    40
+   ],
+   "source_count": 417
+  },
+  "e027563c59825a94:01196617": {
+   "post_groups": 41,
+   "question_count": 374,
+   "role_counts": [
+    241,
+    92,
+    25,
+    16
+   ],
+   "source_count": 374
+  },
+  "e2d549539dc467dc:02146682": {
+   "post_groups": 112,
+   "question_count": 0,
+   "role_counts": [
+    321,
+    131,
+    53,
+    55
+   ],
+   "source_count": 560
+  },
+  "e6268d0b09ca3ab5:00257261": {
+   "post_groups": 128,
+   "question_count": 192,
+   "role_counts": [
+    321,
+    154,
+    91,
+    51
+   ],
+   "source_count": 617
+  },
+  "edbb2e50e9d7a782:01680768": {
+   "post_groups": 44,
+   "question_count": 316,
+   "role_counts": [
+    192,
+    92,
+    25,
+    41
+   ],
+   "source_count": 350
+  },
+  "effcade8c825e9df:00643383": {
+   "post_groups": 2955,
+   "question_count": 156,
+   "role_counts": [
+    8596,
+    4319,
+    2447,
+    2135
+   ],
+   "source_count": 17497
+  },
+  "f3b514513e3d4dde:00486979": {
+   "post_groups": 683,
+   "question_count": 156,
+   "role_counts": [
+    1725,
+    959,
+    457,
+    489
+   ],
+   "source_count": 3630
+  },
+  "f5171382c90bc4f7:01625795": {
+   "post_groups": 126,
+   "question_count": 379,
+   "role_counts": [
+    417,
+    189,
+    74,
+    69
+   ],
+   "source_count": 749
+  },
+  "f7deeab75c0a30a5:02710486": {
+   "post_groups": 67,
+   "question_count": 49,
+   "role_counts": [
+    184,
+    90,
+    38,
+    25
+   ],
+   "source_count": 337
+  },
+  "f7f9a509fee026d1:00318765": {
+   "post_groups": 108,
+   "question_count": 284,
+   "role_counts": [
+    523,
+    197,
+    164,
+    68
+   ],
+   "source_count": 952
+  },
+  "f88d13d36768152f:03674127": {
+   "post_groups": 105,
+   "question_count": 410,
+   "role_counts": [
+    225,
+    137,
+    54,
+    67
+   ],
+   "source_count": 483
+  },
+  "fa9decc2a81b6745:00075554": {
+   "post_groups": 89,
+   "question_count": 229,
+   "role_counts": [
+    194,
+    94,
+    40,
+    52
+   ],
+   "source_count": 380
+  },
+  "fb54eafe69ea133e:01028256": {
+   "post_groups": 105,
+   "question_count": 72,
+   "role_counts": [
+    455,
+    134,
+    121,
+    68
+   ],
+   "source_count": 778
+  },
+  "fbeef8b3bddfe80f:01149736": {
+   "post_groups": 627,
+   "question_count": 355,
+   "role_counts": [
+    1726,
+    755,
+    389,
+    406
+   ],
+   "source_count": 3276
+  },
+  "fc2419bf6d890017:01114155": {
+   "post_groups": 66,
+   "question_count": 378,
+   "role_counts": [
+    229,
+    55,
+    74,
+    33
+   ],
+   "source_count": 391
+  },
+  "fd9a167714ba9331:05688082": {
+   "post_groups": 37,
+   "question_count": 214,
+   "role_counts": [
+    132,
+    47,
+    22,
+    60
+   ],
+   "source_count": 261
+  },
+  "fdda00edfc4030a6:05208406": {
+   "post_groups": 237,
+   "question_count": 1895,
+   "role_counts": [
+    985,
+    507,
+    177,
+    286
+   ],
+   "source_count": 1955
+  },
+  "ff626f925b77edb1:00507256": {
+   "post_groups": 776,
+   "question_count": 898,
+   "role_counts": [
+    1608,
+    756,
+    443,
+    337
+   ],
+   "source_count": 3144
+  }
+ }
+}

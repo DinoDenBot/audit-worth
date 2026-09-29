@@ -1,0 +1,5 @@
+{"checks": {
+ "bound_over_random.min": {"value": 9.5, "tol": 0.05, "where": "Section V, remark after the panel proposition: dimension bound 9.5 to 37 times the random-panel error"},
+ "bound_over_random.max": {"value": 37, "tol": 0.5, "where": "Section V, remark after the panel proposition: dimension bound 9.5 to 37 times the random-panel error"},
+ "bound_over_random.median": {"value": 24, "tol": 0.5, "where": "Section V, remark after the panel proposition: median 24"}
+}}

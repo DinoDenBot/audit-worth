@@ -1,0 +1,9 @@
+{
+ "checks": {
+  "halving_n_eps_grid": {
+   "value": 256,
+   "tol": 0,
+   "where": "Section VI, paragraph 'Federation size': halving the regret of a random choice needs N*eps_dec of about 256 (smallest N*eps_dec on the replicated-federation grid 1,2,...,1024 with regret <= half the random regret; exact match required on this power-of-two grid)"
+  }
+ }
+}

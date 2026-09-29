@@ -1,0 +1,24 @@
+{
+ "checks": {
+  "har.median_net_over_U": {
+   "value": 0.21,
+   "tol": 0.005,
+   "where": "Section VIII (Discussion), paragraph 'What does the payment cost?' (HAR median 0.21U)"
+  },
+  "so.median_net_over_U": {
+   "value": 0.16,
+   "tol": 0.005,
+   "where": "Section VIII (Discussion), paragraph 'What does the payment cost?' (Stack Overflow median 0.16U)"
+  },
+  "har.p90_net_over_U": {
+   "value": 0.9,
+   "tol": 0.05,
+   "where": "Section VIII (Discussion), paragraph 'What does the payment cost?' (HAR 90th percentile 0.9U)"
+  },
+  "so.p90_net_over_U": {
+   "value": 2.4,
+   "tol": 0.05,
+   "where": "Section VIII (Discussion), paragraph 'What does the payment cost?' (Stack Overflow 90th percentile 2.4U)"
+  }
+ }
+}

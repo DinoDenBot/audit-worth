@@ -1,0 +1,34 @@
+{
+ "checks": {
+  "primary_contrasts": {
+   "value": 10,
+   "tol": 0,
+   "where": "Section VII-A, first paragraph: 'all ten primary contrasts'"
+  },
+  "credit_gain_positive": {
+   "value": 10,
+   "tol": 0,
+   "where": "Section VII-A, first paragraph: 'Curation raised the curating client's credit in all ten primary contrasts'"
+  },
+  "excess_evaluable": {
+   "value": 8,
+   "tol": 0,
+   "where": "Section VII-A, first paragraph: 'all eight evaluable contrasts'"
+  },
+  "excess_grew": {
+   "value": 8,
+   "tol": 0,
+   "where": "Section VII-A, first paragraph: 'the excess of panel over target credit grew in all eight evaluable contrasts'"
+  },
+  "max_credit_gain": {
+   "value": 0.2,
+   "tol": 0.05,
+   "where": "Section I, first paragraph: 'by up to 0.2 in record-averaged Shapley value'"
+  },
+  "femnist30_credit_gain": {
+   "value": 0.0027,
+   "tol": 5e-05,
+   "where": "Section VII-A, first paragraph, last sentence: 'the credit gain was itself small (0.0027)'"
+  }
+ }
+}

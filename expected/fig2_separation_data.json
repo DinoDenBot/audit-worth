@@ -1,0 +1,289 @@
+{
+ "checks": {
+  "eps1.femnist30.range": {
+   "value": 0.0150646,
+   "tol": 5e-08,
+   "where": "Figure 2(a), eps_dec=1, setting femnist30, range (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnist30.gain": {
+   "value": -3.61677e-06,
+   "tol": 5e-12,
+   "where": "Figure 2(a), eps_dec=1, setting femnist30, gain (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnist30.lo": {
+   "value": -1.12343e-05,
+   "tol": 5e-11,
+   "where": "Figure 2(a), eps_dec=1, setting femnist30, lo (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnist30.hi": {
+   "value": 4.00073e-06,
+   "tol": 5e-12,
+   "where": "Figure 2(a), eps_dec=1, setting femnist30, hi (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx05.range": {
+   "value": 0.0236002,
+   "tol": 5e-08,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx05, range (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx05.gain": {
+   "value": 1.29905e-05,
+   "tol": 5e-11,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx05, gain (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx05.lo": {
+   "value": -1.70677e-05,
+   "tol": 5e-11,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx05, lo (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx05.hi": {
+   "value": 4.30486e-05,
+   "tol": 5e-11,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx05, hi (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx1.range": {
+   "value": 0.0463645,
+   "tol": 5e-08,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx1, range (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx1.gain": {
+   "value": 0.000130115,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx1, gain (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx1.lo": {
+   "value": -0.000187935,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx1, lo (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx1.hi": {
+   "value": 0.000448166,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx1, hi (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx2.range": {
+   "value": 0.125426,
+   "tol": 5e-07,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx2, range (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx2.gain": {
+   "value": 0.000573514,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx2, gain (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx2.lo": {
+   "value": -0.000171972,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx2, lo (figure data file separation-eps1.csv)"
+  },
+  "eps1.femnistx2.hi": {
+   "value": 0.001319,
+   "tol": 5e-07,
+   "where": "Figure 2(a), eps_dec=1, setting femnistx2, hi (figure data file separation-eps1.csv)"
+  },
+  "eps1.har.range": {
+   "value": 0.107035,
+   "tol": 5e-07,
+   "where": "Figure 2(a), eps_dec=1, setting har, range (figure data file separation-eps1.csv)"
+  },
+  "eps1.har.gain": {
+   "value": 0.000484566,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting har, gain (figure data file separation-eps1.csv)"
+  },
+  "eps1.har.lo": {
+   "value": 0.000345912,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting har, lo (figure data file separation-eps1.csv)"
+  },
+  "eps1.har.hi": {
+   "value": 0.000623221,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting har, hi (figure data file separation-eps1.csv)"
+  },
+  "eps1.so.range": {
+   "value": 0.0647604,
+   "tol": 5e-08,
+   "where": "Figure 2(a), eps_dec=1, setting so, range (figure data file separation-eps1.csv)"
+  },
+  "eps1.so.gain": {
+   "value": 0.00016633,
+   "tol": 5e-09,
+   "where": "Figure 2(a), eps_dec=1, setting so, gain (figure data file separation-eps1.csv)"
+  },
+  "eps1.so.lo": {
+   "value": -2.92079e-05,
+   "tol": 5e-11,
+   "where": "Figure 2(a), eps_dec=1, setting so, lo (figure data file separation-eps1.csv)"
+  },
+  "eps1.so.hi": {
+   "value": 0.000361868,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting so, hi (figure data file separation-eps1.csv)"
+  },
+  "eps1.sostrong.range": {
+   "value": 0.0622737,
+   "tol": 5e-08,
+   "where": "Figure 2(a), eps_dec=1, setting sostrong, range (figure data file separation-eps1.csv)"
+  },
+  "eps1.sostrong.gain": {
+   "value": 0.000223203,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting sostrong, gain (figure data file separation-eps1.csv)"
+  },
+  "eps1.sostrong.lo": {
+   "value": -3.21798e-05,
+   "tol": 5e-11,
+   "where": "Figure 2(a), eps_dec=1, setting sostrong, lo (figure data file separation-eps1.csv)"
+  },
+  "eps1.sostrong.hi": {
+   "value": 0.000478586,
+   "tol": 5e-10,
+   "where": "Figure 2(a), eps_dec=1, setting sostrong, hi (figure data file separation-eps1.csv)"
+  },
+  "eps4.femnist30.range": {
+   "value": 0.0150646,
+   "tol": 5e-08,
+   "where": "Figure 2(b), eps_dec=4, setting femnist30, range (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnist30.gain": {
+   "value": 2.99469e-05,
+   "tol": 5e-11,
+   "where": "Figure 2(b), eps_dec=4, setting femnist30, gain (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnist30.lo": {
+   "value": -2.91542e-05,
+   "tol": 5e-11,
+   "where": "Figure 2(b), eps_dec=4, setting femnist30, lo (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnist30.hi": {
+   "value": 8.90481e-05,
+   "tol": 5e-11,
+   "where": "Figure 2(b), eps_dec=4, setting femnist30, hi (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx05.range": {
+   "value": 0.0236002,
+   "tol": 5e-08,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx05, range (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx05.gain": {
+   "value": 0.000236249,
+   "tol": 5e-10,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx05, gain (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx05.lo": {
+   "value": -0.000155035,
+   "tol": 5e-10,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx05, lo (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx05.hi": {
+   "value": 0.000627533,
+   "tol": 5e-10,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx05, hi (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx1.range": {
+   "value": 0.0463645,
+   "tol": 5e-08,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx1, range (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx1.gain": {
+   "value": 0.0012067,
+   "tol": 5e-08,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx1, gain (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx1.lo": {
+   "value": -0.00116178,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx1, lo (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx1.hi": {
+   "value": 0.00357517,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx1, hi (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx2.range": {
+   "value": 0.125426,
+   "tol": 5e-07,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx2, range (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx2.gain": {
+   "value": 0.00455861,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx2, gain (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx2.lo": {
+   "value": 0.000760046,
+   "tol": 5e-10,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx2, lo (figure data file separation-eps4.csv)"
+  },
+  "eps4.femnistx2.hi": {
+   "value": 0.00835718,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting femnistx2, hi (figure data file separation-eps4.csv)"
+  },
+  "eps4.har.range": {
+   "value": 0.107035,
+   "tol": 5e-07,
+   "where": "Figure 2(b), eps_dec=4, setting har, range (figure data file separation-eps4.csv)"
+  },
+  "eps4.har.gain": {
+   "value": 0.00588171,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting har, gain (figure data file separation-eps4.csv)"
+  },
+  "eps4.har.lo": {
+   "value": 0.00492654,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting har, lo (figure data file separation-eps4.csv)"
+  },
+  "eps4.har.hi": {
+   "value": 0.00683688,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting har, hi (figure data file separation-eps4.csv)"
+  },
+  "eps4.so.range": {
+   "value": 0.0647604,
+   "tol": 5e-08,
+   "where": "Figure 2(b), eps_dec=4, setting so, range (figure data file separation-eps4.csv)"
+  },
+  "eps4.so.gain": {
+   "value": 0.00275231,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting so, gain (figure data file separation-eps4.csv)"
+  },
+  "eps4.so.lo": {
+   "value": 0.000641769,
+   "tol": 5e-10,
+   "where": "Figure 2(b), eps_dec=4, setting so, lo (figure data file separation-eps4.csv)"
+  },
+  "eps4.so.hi": {
+   "value": 0.00486284,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting so, hi (figure data file separation-eps4.csv)"
+  },
+  "eps4.sostrong.range": {
+   "value": 0.0622737,
+   "tol": 5e-08,
+   "where": "Figure 2(b), eps_dec=4, setting sostrong, range (figure data file separation-eps4.csv)"
+  },
+  "eps4.sostrong.gain": {
+   "value": 0.00303233,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting sostrong, gain (figure data file separation-eps4.csv)"
+  },
+  "eps4.sostrong.lo": {
+   "value": 0.000275548,
+   "tol": 5e-10,
+   "where": "Figure 2(b), eps_dec=4, setting sostrong, lo (figure data file separation-eps4.csv)"
+  },
+  "eps4.sostrong.hi": {
+   "value": 0.00578911,
+   "tol": 5e-09,
+   "where": "Figure 2(b), eps_dec=4, setting sostrong, hi (figure data file separation-eps4.csv)"
+  },
+  "femnist30_candidate_range": {
+   "value": 0.015,
+   "tol": 0.0005,
+   "where": "Section VII-B, paragraph 'Two other task settings' (mean candidate range 0.015 in the FEMNIST replay)"
+  }
+ }
+}

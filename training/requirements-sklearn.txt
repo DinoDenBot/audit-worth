@@ -1,0 +1,7 @@
+# Optional: only needed to regenerate the cached scores in data/ (see training/README.md).
+# scikit-learn generators (UCI HAR, Stack Overflow feature extraction, stronger
+# Stack Overflow model). Original environment: Python 3.11.15, CPU only.
+numpy==2.3.3
+scipy==1.17.1
+scikit-learn==1.7.2
+msgpack==1.2.2

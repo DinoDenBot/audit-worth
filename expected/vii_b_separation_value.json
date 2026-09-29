@@ -1,0 +1,94 @@
+{
+ "checks": {
+  "x0.5.range": {
+   "value": 0.024,
+   "tol": 0.0005,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (mean candidate range at scale 0.5)"
+  },
+  "x1.range": {
+   "value": 0.046,
+   "tol": 0.0005,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (mean candidate range at scale 1)"
+  },
+  "x2.range": {
+   "value": 0.125,
+   "tol": 0.0005,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (mean candidate range at scale 2)"
+  },
+  "x0.5.eps4.gain": {
+   "value": 0.0002,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (gain of exact reports over one audit per provider at eps_dec=4, scale 0.5)"
+  },
+  "x0.5.eps4.gain_lo": {
+   "value": -0.0002,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (95% interval over groups, lower)"
+  },
+  "x0.5.eps4.gain_hi": {
+   "value": 0.0006,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (95% interval over groups, upper)"
+  },
+  "x1.eps4.gain": {
+   "value": 0.0012,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (gain of exact reports over one audit per provider at eps_dec=4, scale 1)"
+  },
+  "x1.eps4.gain_lo": {
+   "value": -0.0012,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (95% interval over groups, lower)"
+  },
+  "x1.eps4.gain_hi": {
+   "value": 0.0036,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (95% interval over groups, upper)"
+  },
+  "x2.eps4.gain": {
+   "value": 0.0046,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (gain of exact reports over one audit per provider at eps_dec=4, scale 2)"
+  },
+  "x2.eps4.gain_lo": {
+   "value": 0.0008,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (95% interval over groups, lower)"
+  },
+  "x2.eps4.gain_hi": {
+   "value": 0.0084,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (95% interval over groups, upper)"
+  },
+  "diff_x2_minus_x0.5_eps4.mean": {
+   "value": 0.0043,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (scale-2 minus scale-0.5 difference)"
+  },
+  "diff_x2_minus_x0.5_eps4.lo": {
+   "value": 0.0009,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (interval, lower)"
+  },
+  "diff_x2_minus_x0.5_eps4.hi": {
+   "value": 0.0077,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (interval, upper)"
+  },
+  "diff_x2_minus_x0.5_eps4.groups_positive": {
+   "value": 4,
+   "tol": 0,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (positive in every group)"
+  },
+  "max_gain_eps_le_1": {
+   "value": 0.0006,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'Separation within FEMNIST' (at eps_dec<=1 the gain was at most 0.0006 at every scale; recorded maximum rounds to 0.0006)"
+  },
+  "n_states": {
+   "value": 384,
+   "tol": 0,
+   "where": "Appendix, 'Separation replay' (384 states)"
+  }
+ }
+}

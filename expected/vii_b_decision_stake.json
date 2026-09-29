@@ -1,0 +1,109 @@
+{
+ "checks": {
+  "cor6.violations": {
+   "value": 0,
+   "tol": 0,
+   "where": "Section VII-B, paragraph 'The decision stake': Corollary 6 bound held for every client"
+  },
+  "cor6.median_e_over_bound": {
+   "value": 0.03,
+   "tol": 0.005,
+   "where": "Section VII-B, paragraph 'The decision stake': distortion a median of 3% of the bound"
+  },
+  "payments.required_max_over_eps_le_4": {
+   "value": 300,
+   "tol": 0,
+   "where": "Section VII-B, paragraph 'The decision stake': at eps_dec<=4 a payment 300 times the stake kept every report within 16 independent direct draws (smallest such grid ratio)"
+  },
+  "payments.required_eps=0.25": {
+   "value": 30,
+   "tol": 0,
+   "where": "Section VII-B, paragraph 'The decision stake': 30 times sufficed at eps_dec=0.25 (smallest such grid ratio)"
+  },
+  "payments.required_eps=16": {
+   "value": 3000,
+   "tol": 0,
+   "where": "Section VII-B, paragraph 'The decision stake': at eps_dec=16 it took about 3,000 (smallest such grid ratio)"
+  },
+  "simultaneous.within_0.0005_outside_exception": {
+   "value": 1,
+   "tol": 0,
+   "where": "Section VII-B, paragraph 'The decision stake': simultaneous best responses kept mean regret within 0.0005 of truthful except with beta/U<=100 at eps_dec>=8 (indicator)"
+  },
+  "simultaneous.largest_abs_shift": {
+   "value": 0.0011,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': largest shift 0.0011"
+  },
+  "simultaneous.nonconverged_share": {
+   "value": 0.12,
+   "tol": 0.005,
+   "where": "Section VII-B, paragraph 'The decision stake': 12% of settings did not converge within 30 sweeps"
+  },
+  "regret_eps16.mean": {
+   "value": 0.0064,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': four-client regret at eps_dec=16"
+  },
+  "regret_eps16.lo": {
+   "value": 0.0053,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': four-client regret at eps_dec=16, interval lower end"
+  },
+  "regret_eps16.hi": {
+   "value": 0.0076,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': four-client regret at eps_dec=16, interval upper end"
+  },
+  "replicated_regret.N=16.eps=16": {
+   "value": 0.0035,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': replicated federations, regret 0.0035 at N*eps_dec=256 (16 clients)"
+  },
+  "replicated_regret.N=64.eps=4": {
+   "value": 0.0035,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': replicated federations, regret 0.0035 at N*eps_dec=256 (64 clients)"
+  },
+  "replicated_regret.N=64.eps=16": {
+   "value": 0.0006,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': replicated federations, regret 0.0006 at N*eps_dec=1024"
+  },
+  "distortion_rho300.eps=4.N=4": {
+   "value": 0.0069,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': distortion at eps_dec=4, beta/U=300, 4 clients"
+  },
+  "distortion_rho300.eps=4.N=16": {
+   "value": 0.0071,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': distortion at eps_dec=4, beta/U=300, 16 replicated clients"
+  },
+  "distortion_rho300.eps=4.N=64": {
+   "value": 0.0077,
+   "tol": 5e-05,
+   "where": "Section VII-B, paragraph 'The decision stake': distortion at eps_dec=4, beta/U=300, 64 replicated clients"
+  },
+  "distortion_rho300.eps=16.N=4": {
+   "value": 0.23,
+   "tol": 0.005,
+   "where": "Section VII-B, paragraph 'The decision stake': distortion at eps_dec=16, beta/U=300, 4 clients"
+  },
+  "distortion_rho300.eps=16.N=16": {
+   "value": 0.19,
+   "tol": 0.005,
+   "where": "Section VII-B, paragraph 'The decision stake': distortion at eps_dec=16, beta/U=300, 16 replicated clients"
+  },
+  "distortion_rho300.eps=16.N=64": {
+   "value": 0.095,
+   "tol": 0.0005,
+   "where": "Section VII-B, paragraph 'The decision stake': distortion at eps_dec=16, beta/U=300, 64 replicated clients"
+  },
+  "box.outside_M_share": {
+   "value": 0.017,
+   "tol": 0.0005,
+   "where": "Appendix D, 'Decision-stake replay': 1.7% of box best responses left M_dec"
+  }
+ }
+}

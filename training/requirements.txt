@@ -1,0 +1,8 @@
+# Optional: only needed to regenerate the cached scores in data/ (see training/README.md).
+# PyTorch generators (FEMNIST 30-group study and decay replay, FEMNIST update-scaling
+# study, Stack Overflow text-model training and scoring). Original environment:
+# Python 3.12.13, CPU only.
+torch==2.8.0
+numpy==2.3.2
+pyarrow==21.0.0
+pillow==11.3.0
